@@ -1,0 +1,95 @@
+{
+  "index": "dynamic",
+  "meta": {
+    "mode": "dynamic",
+    "articles": 5000,
+    "chunks": 10033,
+    "tokens_mean": 252.1,
+    "tokens_p95": 350,
+    "tokens_max": 469,
+    "truncated_chunks": 0,
+    "truncated_pct": 0.0,
+    "embed_chunks_per_s": 14.5,
+    "chunk_s": 6.2,
+    "embed_s": 692.6,
+    "faiss_s": 0.6,
+    "bm25_s": 2.0,
+    "total_s": 701.5
+  },
+  "questions": 150,
+  "style": "hard",
+  "configs": {
+    "dense (exact)": {
+      "recall@1": 0.707,
+      "recall@5": 0.86,
+      "recall@10": 0.873,
+      "recall@20": 0.92,
+      "mrr": 0.769,
+      "ndcg@10": 0.792,
+      "latency_ms_p50": 0.9
+    },
+    "dense (HNSW)": {
+      "recall@1": 0.707,
+      "recall@5": 0.86,
+      "recall@10": 0.873,
+      "recall@20": 0.92,
+      "mrr": 0.769,
+      "ndcg@10": 0.792,
+      "latency_ms_p50": 0.8
+    },
+    "bm25": {
+      "recall@1": 0.693,
+      "recall@5": 0.833,
+      "recall@10": 0.873,
+      "recall@20": 0.913,
+      "mrr": 0.75,
+      "ndcg@10": 0.777,
+      "latency_ms_p50": 0.8
+    },
+    "hybrid weighted a=0.3": {
+      "recall@1": 0.727,
+      "recall@5": 0.867,
+      "recall@10": 0.913,
+      "recall@20": 0.933,
+      "mrr": 0.788,
+      "ndcg@10": 0.817,
+      "latency_ms_p50": 1.4
+    },
+    "hybrid weighted a=0.5": {
+      "recall@1": 0.767,
+      "recall@5": 0.9,
+      "recall@10": 0.92,
+      "recall@20": 0.94,
+      "mrr": 0.822,
+      "ndcg@10": 0.845,
+      "latency_ms_p50": 1.4
+    },
+    "hybrid weighted a=0.7": {
+      "recall@1": 0.787,
+      "recall@5": 0.887,
+      "recall@10": 0.913,
+      "recall@20": 0.927,
+      "mrr": 0.822,
+      "ndcg@10": 0.843,
+      "latency_ms_p50": 1.4
+    },
+    "hybrid rrf": {
+      "recall@1": 0.733,
+      "recall@5": 0.873,
+      "recall@10": 0.933,
+      "recall@20": 0.947,
+      "mrr": 0.798,
+      "ndcg@10": 0.829,
+      "latency_ms_p50": 1.4
+    },
+    "hybrid rrf + rerank (MiniLM)": {
+      "recall@1": 0.753,
+      "recall@5": 0.907,
+      "recall@10": 0.947,
+      "recall@20": 0.953,
+      "mrr": 0.822,
+      "ndcg@10": 0.852,
+      "latency_ms_p50": 880.5
+    }
+  }
+}

@@ -1,0 +1,988 @@
+{
+  "summary": {
+    "baseline": {
+      "questions": 40,
+      "graded": 40,
+      "context_hit_rate": 0.925,
+      "tokens_mean": 2121.2,
+      "faithfulness": 4.85,
+      "relevance": 4.9,
+      "correctness": 4.85
+    },
+    "full": {
+      "questions": 40,
+      "graded": 40,
+      "context_hit_rate": 1.0,
+      "tokens_mean": 1648.7,
+      "faithfulness": 4.92,
+      "relevance": 4.97,
+      "correctness": 4.83
+    }
+  },
+  "rows": {
+    "baseline": [
+      {
+        "id": 0,
+        "context_hit": true,
+        "prompt_chars": 7227,
+        "tokens": 1562,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The former governor of Veracruz, Luis Javier Duarte, is facing charges in Mexico that he diverted public funds for his personal enrichment. This information is cited from the article titled: [1] Mexico Catches One Of Several Fugitive Former Governors After A Half-Year Hunt."
+      },
+      {
+        "id": 1,
+        "context_hit": true,
+        "prompt_chars": 7728,
+        "tokens": 1890,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The best time to view the partial eclipse in the Tri-Cities is at 1:07 p.m. when the partial eclipse will start. This information is provided in the article titled \"Bays Mountain Planetarium produces film,\u201dTotality,\u201d now playing in planetariums across the country.\""
+      },
+      {
+        "id": 2,
+        "context_hit": true,
+        "prompt_chars": 4785,
+        "tokens": 1151,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "When the JoogSquad were approached by officials near the Los Angeles River, they got off the raft and pulled it off to the side of the river. This information is from the article titled \"Group floats down Los Angeles River in inflatable pink flamingo raft.\""
+      },
+      {
+        "id": 3,
+        "context_hit": false,
+        "prompt_chars": 5052,
+        "tokens": 1209,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The helicopter crashed into a Southern California home in Newport Beach, California. According to the eyewitness, the pilot was lying injured but alive on the grass. \n\n- The crash location is mentioned in the article titled: \"Helicopter crashes into California home, killing 3 people.\"\n- The condition of the pilot is described in the same article: \"Helicopter crashes into California home, killing 3 people.\""
+      },
+      {
+        "id": 4,
+        "context_hit": true,
+        "prompt_chars": 10118,
+        "tokens": 2533,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Valentino Rossi believes Yamaha's failure to win 15 races in a row is not a coincidence because he thinks Yamaha's current performance is \"not enough\" and that the team needs to fix its issues faster because it is usually \"not very reactive.\" This belief is expressed in the article titled \"Vinales: Zarco form 'proof' Yamaha went wrong.\""
+      },
+      {
+        "id": 5,
+        "context_hit": true,
+        "prompt_chars": 9806,
+        "tokens": 2319,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Coach Hemand Kumar identifies two main challenges for the future of wrestling in modern India:\n\n1. The rich kids do not want to take up wrestling, while those without money are interested but lack the resources. This challenge is mentioned in the article titled \"Ancient wrestling offers a future for some in modern India\" [1].\n\n2. There is a difficulty in finding land needed to set up new akhadas, which is also mentioned in the article titled \"Ancient wrestling offers a future for some in modern India\" [1]."
+      },
+      {
+        "id": 6,
+        "context_hit": true,
+        "prompt_chars": 9039,
+        "tokens": 2163,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The new DHL Americas Innovation Center is located in Rosemont, Illinois, as stated in the article titled \"New DHL Americas Innovation Center to Promote Future of Logistics.\" The purpose of the center in relation to technology and logistics is to showcase the future of logistics by exhibiting the technologies and innovations in logistics that DHL is already implementing across the region, and to foster the development of future logistics and supply chain solutions while serving as a regional platform for collaborative innovation."
+      },
+      {
+        "id": 7,
+        "context_hit": true,
+        "prompt_chars": 7860,
+        "tokens": 2177,
+        "grade": {
+          "faithfulness": 3,
+          "relevance": 5,
+          "correctness": 3
+        },
+        "answer": "Moore had several criminal charges and convictions in Wake County between 1990 and 2015. Here are the details:\n\n1. **Possession of a schedule VI controlled substance** in Wake County in 1990. (Cite: [1])\n2. **Possession with intent to sell a schedule II controlled substance** and **conspiracy to sell a schedule II controlled substance** in Wake County in 1993. (Cite: [1])\n3. **Assault on a female** and **injury to property** in Wake County in 2004. (Cite: [1])\n4. **Larceny** in Wake County in 2005. (Cite: [1])\n5. **Assault on a female** in Wake County in 2007. (Cite: [1])\n6. **Injury to property** in Wake County in 2010. (Cite: [1])\n7. **Assault on a female** and **driving while impaired** in Wake County in 2011. (Cite: [1])\n8. **Assault on a female** and **driving while impaired** in Wake County in 2011. (Cite: [2])\n9. **Violation of a protective order** and **assault by strangulation** in Wake County in 2014. (Cite: [1])"
+      },
+      {
+        "id": 8,
+        "context_hit": true,
+        "prompt_chars": 14454,
+        "tokens": 3388,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "SIFLEX, a Korean manufacturer, decided to switch its SAP application support to Rimini Street for several reasons, as outlined in the provided passages:\n\n1. **To reduce maintenance fees and maximize its current ERP system**: SIFLEX was able to reduce its maintenance fees by 50% and can now maximize its current, stable and robust ERP ECC 5.0 system for a minimum of 15 years from the time the company transitioned to Rimini Street support. (\"SIFLEX Switches to Rimini Street Support for Its SAP Application\")\n\n2. **To free up internal IT personnel**: By making the switch, SIFLEX was able to free up internal IT personnel to focus on more pressing initiatives within the organization. (\"SIFLEX Switches to Rimini Street Support for Its SAP Application\")\n\n3. **To improve productivity and better optimize IT costs**: SIFLEX began exploring options to find alternatives to free up its IT staff to focus on more strategic, growth-related projects within the business and to explore options for reducing the cost of its SAP ERP maintenance. (\"SIFLEX Switches to Rimini Street Support for Its SAP Application\")\n\n4. **To seek a higher quality of service**: SIFLEX was looking for a higher quality of service from what they had been receiving from the software vendor and wanted to reduce its dependency on SAP overall. (\"SIFLEX Switches to Rimini Street Support for Its SAP Application\")\n\n5. **To have immediate access to expert engineers**: SIFLEX wanted immediate access to expert engineers who would quickly respond to any issues that arose and provide a timely resolution. (\"SIFLEX Switches to Rimini Street Support for Its SAP Application\")\n\n6. **To benefit from a premium level of service**: SIFLEX was assigned a primary support engineer (PSE) with an average of 15 years\u2019 experience with SAP software, and the company now enjoys a premium level of service compared to the call-center level support model provided by SAP. (\"SIFLEX Switches to Rimini Street Support for Its SAP Application\")"
+      },
+      {
+        "id": 9,
+        "context_hit": true,
+        "prompt_chars": 8684,
+        "tokens": 2011,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The passages do not explicitly state what Italy's EU affairs representative and the Brexit negotiator said about the importance of finalizing all aspects of the Brexit deal before starting the transition period. However, we can infer from the information provided:\n\n- Italy's EU affairs representative, Sandro Gozi, emphasized the importance of clarity on future relations, stating, \"The sooner the Brits are clear about the future, the better for everybody.\" This suggests that Italy's representative believed it was important to have a clear understanding of future relations before moving forward with the transition period.\n\n- The Brexit negotiator, Michel Barnier, stated, \"Without an agreement on all parts of the withdrawal there can be no transition,\" which indicates that he believed all aspects of the Brexit deal must be finalized before the transition period could begin. \n\nThese inferences are based on the information provided in the passages."
+      },
+      {
+        "id": 10,
+        "context_hit": true,
+        "prompt_chars": 9225,
+        "tokens": 2111,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Florida prosecutors might consider letting Minnesota try Riess first for the murder charge because a prior crime of violence could be an aggravating factor for the death penalty. This is mentioned in the article titled \"Experts: Minnesota woman likely to face Florida charge first.\" Additionally, prosecutors in Minnesota might feel that the death penalty shouldn't be an option, so they might seek to try Riess first for that reason, as noted in the same article."
+      },
+      {
+        "id": 11,
+        "context_hit": false,
+        "prompt_chars": 6400,
+        "tokens": 1361,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The rescue ship with 60 migrants went to Barcelona after being refused entry by Italy and Malta. This information is from the article titled \"60 migrants refused by Italy and Malta arrive in Barcelona.\""
+      },
+      {
+        "id": 12,
+        "context_hit": true,
+        "prompt_chars": 7506,
+        "tokens": 1934,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Rahawa Haile through-hiked the Appalachian Trail in 2016, completing the entire 2,000-mile trail from Georgia to Maine alone as a young African-American woman. (\"Black Bodies, Green Spaces\") \n\nDuring her hike, Rahawa Haile carried along a series of books by black authors, which she left in trail shelters along the way. (\"Black Bodies, Green Spaces\") \n\nShe also mentioned that the love she carried was books, specifically exceptional books by black authors, whose strength gave her strength in turn. (\"Black Bodies, Green Spaces\") \n\nAdditionally, Rahawa Haile sought out these titles wherever she could, wanting to show them beauty from heights that a history of terror had made clear were never intended to be theirs. (\"Black Bodies, Green Spaces\")"
+      },
+      {
+        "id": 13,
+        "context_hit": true,
+        "prompt_chars": 10012,
+        "tokens": 2880,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The key players and team members involved in the Pittsburgh Steelers' victory that secured their AFC North title and set up their upcoming game against the New England Patriots include:\n\n1. **Ben Roethlisberger** - He had a record-setting day, throwing for 506 yards and two scores, becoming the first player in NFL history to go over 500 yards passing three times in his career. (Title: Steelers wrap up AFC North title, set up showdown with Pats)\n\n2. **Antonio Brown** - He caught 11 passes for 2,13 yards, fueling an MVP candidacy, including gains of 57 and 34 yards in the fourth quarter that sparked Pittsburgh's comeback. (Title: Steelers wrap up AFC North title, set up showdown with Pats)\n\n3. **Le'Veon Bell** - He finished with 125 total yards and three scores. (Title: Steelers wrap up AFC North title, set up showdown with Pats)\n\n4. **Chris Boswell** - He kicked a 46-yard field goal with 42 seconds left, contributing to the final points of the game. (Title: Steelers wrap up AFC North title, set up showdown with Pats)\n\n5. **Ryan Shazier** - Although injured, he was still a significant part of the team's efforts, and the team made sure he was included in their celebrations. (Title: Steelers wrap up AFC North title, set up showdown with Pats)\n\n6. **James Harrison** - He borrowed a page from Shazier's pregame routine and warmed up shirtless, showing the team's support for Shazier. (Title: Steelers wrap up AFC North title, set up showdown with Pats)\n\n7. **Maurkice Pouncey** - He spoke about the upcoming game against the New England Patriots, acknowledging their strength but also expressing confidence in the Steelers' ability to compete. (Title: Steelers wrap up AFC North title, set up showdown with Pats)\n\n8. **Roosevelt Nix** - He scored his first career touchdown on a 1-yard reception, contributing to the team's success. (Title: Steelers wrap up AFC North title, set up showdown with Pats)\n\n9. **Jessie James and Vance McDonald** - They combined for 14 receptions for 149 yards, supporting the team's offensive efforts. (Title: Steelers wrap up AFC North title, set up showdown with Pats)\n\n10. **Arthur Moats** - He expressed the team's emotional support for Shazier, emphasizing their commitment to making sure he was okay. (Title: Steelers wrap up AFC North title, set up showdown with Pats)"
+      },
+      {
+        "id": 14,
+        "context_hit": true,
+        "prompt_chars": 8086,
+        "tokens": 1986,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Tom Parker took several steps to prepare for his role in the Grease musical at Milton Keynes. He asked for the script a couple of months before the rehearsals started so he could get his head in the right place (Interview: The Wanted's Tom Parker talks about Grease role at Milton Keynes [1]). Additionally, he watched the film to get the style of acting required in the field and tried to take little things from John Travolta's performance (Interview: The Wanted's Tom Parker talks about Grease role at Milton Keynes [1])."
+      },
+      {
+        "id": 15,
+        "context_hit": true,
+        "prompt_chars": 10380,
+        "tokens": 2320,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Nicol\u00e1s Melmann is planning to perform Cartridge Music by John Cage at the Paraninfo in Barcelona. This information is found in the first passage titled \"Nicol\u00e1s Melmann: \u201cAnother Dimension.\u201d Interview by Paranoid.\"\n\nThe other event that will take place at the San Agust\u00edn Convent is an installation. This detail is also mentioned in the first passage titled \"Nicol\u00e1s Melmann: \u201cAnother Dimension.\u201d Interview by Paranoid.\""
+      },
+      {
+        "id": 16,
+        "context_hit": true,
+        "prompt_chars": 8345,
+        "tokens": 1908,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The train carrying GOP lawmakers to a policy retreat in White Sulfur Springs, West Virginia, collided with a garbage truck. This information is detailed in the first article titled \"Train carrying GOP lawmakers to policy retreat hits truck.\" The collision occurred south of Charlottesville, Virginia, and the train was en route to the Greenbrier resort for a three-day retreat. The second article titled \"Republican lawmaker: Train carrying GOP House members to retreat in West Virginia has hit a truck\" also confirms the collision with a truck. The third article titled \"The Latest: Adjusted program set for congressional retreat\" and the fourth article titled \"The Latest: White House says no lawmakers seriously hurt\" provide additional details about the incident, including the location and the involvement of a garbage truck. The fifth article titled \"The Latest: Lewis discharged from hospital after train crash\" also mentions the collision with a truck."
+      },
+      {
+        "id": 17,
+        "context_hit": true,
+        "prompt_chars": 7768,
+        "tokens": 1762,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The first female premier of Romania is Viorica Dancila. Her goals for the country's economy include raising wages, reducing bureaucracy, and building hundreds of kilometers (miles) of new highways and railway lines by 2020. These details are from the article titled \"Romania approves first female premier amid protests.\""
+      },
+      {
+        "id": 18,
+        "context_hit": false,
+        "prompt_chars": 12022,
+        "tokens": 2426,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Yes, the White House is considering a legal and national security review of a classified memo related to the Russia investigation before deciding whether to release it. This is supported by the following claims from the passages:\n\n1. \"The White House had said before the speech that it was still conducting a legal and national security review of the document\" (from [3]).\n\n2. \"The National Security Council is leading an interagency review of the memo\" (from [1]).\n\n3. \"The White House counsel's office has been in possession of the memo, officials say. The National Security Council is leading a review, which will also involve the White House legal team\" (from [2])."
+      },
+      {
+        "id": 19,
+        "context_hit": true,
+        "prompt_chars": 11251,
+        "tokens": 2545,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Stumpf has been on death row for more than 12,000 days, as stated in the article titled \"[1] At age 87, waiting and hoping for execution of wife's killer.\" The factors that have contributed to the delay in his execution include court appeals, Ohio's struggle to find lethal drugs, and a reprieve from Gov. John Kasich that moved Stumpf's execution from January of next year to November to allow more time for legal arguments over Ohio's new lethal injection process, as mentioned in the same article."
+      },
+      {
+        "id": 20,
+        "context_hit": true,
+        "prompt_chars": 12342,
+        "tokens": 2678,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "BAE Systems and Dell EMC collaborated to offer a federated secure cloud solution for the U.S. Government. This solution is described as the first scalable, hybrid cloud solution of its kind, designed with high-assurance security in mind. The solution includes zero-anonymity security features, allowing security administrators to monitor, track, and control all software, hardware, and user access to their respective clouds. It satisfies more than 900 security controls and offers the highest assurance enterprise desktop services available in the government, with more than 30 controls from Intelligence Community overlay subpart C (INT-C) for rapid deployment authorization. (\"BAE Systems and Dell EMC collaborate to offer mission-ready cloud solution for the U.S. Government\")"
+      },
+      {
+        "id": 21,
+        "context_hit": true,
+        "prompt_chars": 7797,
+        "tokens": 2000,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The cost of the LattePanda Delta is compared to the LattePanda Alpha in the article titled \"[1] Size of a Raspberry Pi, power of a MacBook: The Window 10-powered LattePanda Alpha.\" According to the passage, the LattePanda Alpha starts at $289, while the lower-specced LattePanda Delta starts at $129."
+      },
+      {
+        "id": 22,
+        "context_hit": true,
+        "prompt_chars": 5489,
+        "tokens": 2021,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "According to Nielsen's top programs for the week of April 16-22, the television program with the highest viewership rating was \"Roseanne\" on ABC, which had 13.27 million viewers. This information is cited from the article titled \"Nielsen's top programs for April 16-22.\""
+      },
+      {
+        "id": 23,
+        "context_hit": true,
+        "prompt_chars": 9192,
+        "tokens": 1969,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The main challenges to unifying the Civic Center Public Realm according to the study are:\n\n1. The area's governance is overseen by a slew of organizations, which divide the area along Larkin Street. (Title: City agencies host Civic Center public realm workshop)\n\n2. The neighborhood is split by two police jurisdictions: the Tenderloin and Northern SFPD districts currently each border Larkin Street. (Title: City agencies host Civic Center public realm workshop)\n\n3. Highly-trafficked streets\u2014Polk, Larkin, and Hyde\u2014break up the visual axis from Market Street to City Hall. (Title: City agencies host Civic Center public realm workshop)\n\n4. Large, single-use buildings like government offices, performance spaces, and museums create \"long, inactive\" facades with few openings and very little transparency, leaving the center of Civic Center dull and unattractive to nearby tenants. (Title: City agencies host Civic Center public realm workshop)"
+      },
+      {
+        "id": 24,
+        "context_hit": true,
+        "prompt_chars": 12315,
+        "tokens": 2897,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The major countries that produce biofuel are the US, Brazil, Germany, China, Argentina, and France, as stated in the article titled \"Rise in Demand for Biofuels to Boost Growth.\" The rising demand for biofuels is having a positive impact on the global biotech seeds market, as it is one of the key emerging trends that has the potential to significantly impact the market and contribute to its growth. This is also mentioned in the same article."
+      },
+      {
+        "id": 25,
+        "context_hit": true,
+        "prompt_chars": 10000,
+        "tokens": 2582,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The ACTIVE FUNNEL is an advanced SOx abatement system developed by Mitsubishi Shipbuilding and MHPS. It is designed to reduce sulfur dioxide (SO2) in the exhaust gas of ships using 3.5%-sulfur-content fuels to the level of 0.1%-sulfur-content fuels, complying with new global SOx emissions regulations effective from January 1, 2020. This information is from the article titled \"Mitsubishi Shipbuilding and MHPS Launch Advanced SOx Abatement System ACTIVE FUNNEL.\"\n\nThe ACTIVE FUNNEL is most suitable for very large container ships due to their high exhaust gas emissions and limited installation space for SOx abatement systems. It can desulfurize large amounts of exhaust gas and is flexible enough to be installed in narrow spaces between container holds without compromising the vessel's container capacity. Additionally, the ACTIVE FUNNEL is also suitable for installation on existing ships as it is provided as one module with a short retrofitting period. The article \"Mitsubishi Shipbuilding and MHPS Launch Advanced SOx Abatement System ACTIVE FUNNEL\" also mentions that the product lineup will be expanded by applying the new ACTIVE FUNNEL technology to very large crude carriers (VLCC: 200,000-310,000 DWT) and very large ore carriers (VLOC)."
+      },
+      {
+        "id": 26,
+        "context_hit": true,
+        "prompt_chars": 5992,
+        "tokens": 1372,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "San Francisco's city attorney, Dennis Herrera, took the following actions against the alleged brothel operators:\n\n1. Filed a lawsuit against the massage parlor, alleging it operates as a brothel. (Title: San Francisco's city attorney files lawsuit against alleged brothel)\n2. Charged the massage parlor with operating as a brothel and cited the establishment with multiple fines for violating health codes and other laws over at least six years. (Title: San Francisco's city attorney files lawsuit against alleged brothel)\n3. Mentioned that the operating permit of the establishment was revoked for 60 days. (Title: San Francisco's city attorney files lawsuit against alleged brothel)\n4. Noted that there have been numerous police undercover operations at the establishment, where individuals were found engaging in sex. (Title: San Francisco's city attorney files lawsuit against alleged brothel)\n5. Indicated that the city hopes to close the business for at least a year. (Title: San Francisco's city attorney files lawsuit against alleged brothel)"
+      },
+      {
+        "id": 27,
+        "context_hit": true,
+        "prompt_chars": 8058,
+        "tokens": 1741,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Yes, the insurance companies are refusing to cover Duke Energy's coal ash cleanup costs because they claim the damage was intentional and not caused by a distinct pollution event. This is stated in the article titled \"Insurers: We're off the hook, Duke Energy knew coal ash risk\" where it mentions that the insurers say the damage \"was caused intentionally, by or at Duke's direction\" and there weren't any distinct pollution events that triggered coverage."
+      },
+      {
+        "id": 28,
+        "context_hit": true,
+        "prompt_chars": 9314,
+        "tokens": 2372,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The South Bend International Airport has taken the following steps toward adding international flights since 2014:\n\n1. The airport announced plans for international service in 2014. (Title: Indiana airport works to add international flights)\n2. The airport began construction of a new customs facility by 2015. (Title: Indiana airport works to add international flights)\n3. Most of the $7.9 million funding for the customs facility came from grant money provided by the Federal Aviation Administration. (Title: Indiana airport works to add international flights)\n4. The Indiana Department of Transportation also contributed $436,580 toward the customs facility. (Title: Indiana airport works to add international flights)\n5. Construction on the customs facility was completed last year. (Title: Indiana airport works to add international flights)\n6. The facility has handled 47 international arrivals. (Title: Indiana airport works to add international flights)\n7. The airport has had flights from Canada, Mexico, Brazil, Italy, France, to name a few. (Title: Indiana airport works to add international flights)\n8. The airport continues to work on attracting an international commercial flight, which is still a few steps away from the negotiating table with airlines or travel agencies. (Title: Indiana airport works to add international flights)"
+      },
+      {
+        "id": 29,
+        "context_hit": true,
+        "prompt_chars": 9737,
+        "tokens": 2327,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The Zhuangwei Sand-Dune Line bus service operates from 8:30 a.m. until 4:30 p.m. on weekdays. This information is found in the article titled \"Taiwan Tourist Shuttle launches Zhuangwei Sand-Dune Line June 1.\""
+      },
+      {
+        "id": 30,
+        "context_hit": true,
+        "prompt_chars": 9834,
+        "tokens": 2677,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The blood lead level thresholds for children in the United States, along with the health actions recommended for each level, are as follows:\n\n1. **>0 (\u00b5g/dL):** Even at birth, all people have some lead in their blood. However, the CDC says no level of exposure has been deemed safe for children. (Cite: [2])\n\n2. **1.0 - 1.3 (\u00b5g/dL):** This is the average blood lead level among U.S. children ages 1-5. (Cite: [2])\n\n3. **3.5 (\u00b5g/dL):** The CDC is considering using this level as a new \"reference value\" to identify children under age six with elevated blood lead levels. (Cite: [2])\n\n4. **5 (\u00b5g/dL):** This is the CDC's current reference level for an elevated childhood blood level that warrants public health action, close monitoring, or case management. Some 500,000 U.S. children are at or above this level, which some states define as lead poisoning. (Cite: [2])\n\n5. **10 (\u00b5g/dL):** Children who reach this threshold require closer attention and action to limit further lead exposure. Many states conduct inspections of the poisoned child's living environment to identify exposure sources. Research shows that a blood lead level of 10 (\u00b5g/dL) can lower IQ by 4 to 6 points on average. (Cite: [2])\n\n6. **45 (\u00b5g/dL):** Poisoning that may require hospitalization and chelation drug treatment, which helps the body to excrete lead. The drugs aren't considered effective for children with lower blood lead levels. (Cite: [2])\n\n7. **>70 (\u00b5g/dL):** Left unchecked, acute lead poisoning can cause seizures, coma, and death. (Cite: [2])\n\nThe CDC is considering lowering its reference level from 5 to 3.5 micrograms per deciliter to identify children with elevated blood lead levels. This change could lead to more children being identified as needing public health action, which may involve educating families about lead safety, ordering more blood tests, home inspections, or remediation. (Cite: [1], [3])"
+      },
+      {
+        "id": 31,
+        "context_hit": true,
+        "prompt_chars": 5585,
+        "tokens": 1514,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The Lazio goalkeeper who made a great save to prevent a goal from Patrick Cutrone in the 75th minute of the cup match against Milan was Thomas Strakosha. This information is from the article titled: \"Calhanoglu misses sitter as Milan draws against Lazio in cup.\""
+      },
+      {
+        "id": 32,
+        "context_hit": true,
+        "prompt_chars": 8627,
+        "tokens": 2242,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "At the 60th annual Grammy Awards, several performers were highlighted for their performances and the cultural influences they showcased:\n\n1. Bruno Mars and Cardi B performed a musical and cultural homage to new jack swing, \"In Living Color,\" and Mars' brand of funk and R&B. This performance highlighted the influence of 1990s music and culture. (Title: Plenty of fire and fury at 60th annual Grammy Awards)\n\n2. Tony Award winners Ben Platt and Patti LuPone delivered tributes to composers Andrew Lloyd Webber and Leonard Bernstein, highlighting the rich history of musical theater in New York City. (Title: Plenty of fire and fury at 60th annual Grammy Awards)\n\n3. Kendrick Lamar opened the show with a performance that combined rap, rock, and comedy, featuring an army of marching camouflaged dancers and a satirical element. This performance highlighted the influence of performance art and social commentary. (Title: Plenty of fire and fury at 60th annual Grammy Awards)\n\n4. Eric Church, Maren Morris, and Brothers Osborne performed Eric Clapton's \"Tears in Heaven,\" honoring victims of the Route 91 Harvest Festival and the Ariana Grande concert bombing. This performance highlighted the influence of classic rock and the power of music in mourning and remembrance. (Title: Country artists deliver tribute to concert attack victims)\n\n5. Elton John and Miley Cyrus performed a rendition of \"Tiny Dancer,\" which highlighted the influence of classic rock and the enduring appeal of timeless songs. (Title: Plenty of fire and fury at 60th annual Grammy Awards)"
+      },
+      {
+        "id": 33,
+        "context_hit": true,
+        "prompt_chars": 9853,
+        "tokens": 2405,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The 2018 TEACH Partner Award by DeVryWORKS was awarded to State Auto Insurance. The key characteristics of their approach to employee development include energy and accountability, with coaching programs that have replaced annual performance appraisals. Their training sessions are designed to instill confidence, integrity, professionalism, and a personal power base centered on honesty, fairness, and openness. These aspects are detailed in the article titled \"DeVryWORKS Announces 2018 TEACH Partner Award Recipient.\""
+      },
+      {
+        "id": 34,
+        "context_hit": true,
+        "prompt_chars": 10727,
+        "tokens": 2298,
+        "grade": {
+          "faithfulness": 1,
+          "relevance": 1,
+          "correctness": 1
+        },
+        "answer": "Some voters switched their registration from Republican to Democrat because of the GOP's efforts to repeal the Affordable Care Act due to the following reasons:\n\n1. The failed efforts by congressional Republicans last year to repeal the Affordable Care Act exposed core benefits of the law that millions of Americans now take for granted, which encouraged voters to support Democrats. (Title: Strong health sign-ups under Obamacare encourage Democrats)\n\n2. The strong health sign-ups under the Affordable Care Act indicate that many voters are concerned about health care and are looking for solutions, which Democrats are emphasizing as part of their campaign strategy. (Title: Strong health sign-ups under Obamacare encourage Democrats)\n\n3. The political battle over the Affordable Care Act has shown that some voters are concerned about the potential negative impacts of repealing the law, which has led them to support Democrats. (Title: Trump Administration Extends Deadline For Insurers To Decide On Obamacare Markets)\n\n4. The abortion impasse and the restrictions on abortion funding in the GOP bill have caused concern among some voters, leading them to support Democrats who are against these restrictions. (Title: Abortion impasse could shut down effort to reduce premiums)"
+      },
+      {
+        "id": 35,
+        "context_hit": true,
+        "prompt_chars": 12062,
+        "tokens": 2797,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The global industrial automation device manager software market is segmented into the Americas, APAC, and EMEA. This information is found in the article titled \"Global Industrial Automation Device Manager Software Market - Demand for Real-time Data Analysis to Boost Growth.\" \n\nThe market share of the Americas in 2017 was over 36%. This detail is also from the article titled \"Global Industrial Automation Device Manager Software Market - Demand for Real-time Data Analysis to Boost Growth.\""
+      },
+      {
+        "id": 36,
+        "context_hit": true,
+        "prompt_chars": 6251,
+        "tokens": 1615,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The person who was shot on Southbound I-880 in San Leandro was critically injured. This information is mentioned in the first article titled \"Police investigate southbound I-880 shooting in San Leandro that left one in critical condition.\" The victim was taken to a nearby hospital and is currently in critical condition. \n\nAdditionally, the fourth article titled \"Another freeway shooting in San Leandro leaves driver in critical condition\" states that the young driver was struck in the head and is now hospitalized. It also mentions that bullets shattered the front passenger window, one of them hitting the driver in the head."
+      },
+      {
+        "id": 37,
+        "context_hit": true,
+        "prompt_chars": 9128,
+        "tokens": 1983,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The tax cut plan had a significant impact on Anthem's profit. According to the article titled \"Anthem's 4Q profit surges on higher rates, tax benefit,\" Anthem recorded a $1.1 billion benefit from corporate tax cuts in the quarter, which contributed to its profit surge. \n\nAnthem planned to increase its dividend by a nickel, as mentioned in the same article. The company also announced that it would bump the quarterly dividend it pays shareholders up to 75 cents a share starting in March."
+      },
+      {
+        "id": 38,
+        "context_hit": true,
+        "prompt_chars": 5787,
+        "tokens": 1303,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Congressman Paul Gosar suggested that any \"illegal aliens\" who attend the State of the Union address should be arrested and deported. This claim is found in the article titled [1]. \n\nSenator Jeff Flake responded to Gosar's suggestion with a tweet that said, \"This is why we can't have nice things...\" This reaction is also mentioned in the article titled [1]."
+      },
+      {
+        "id": 39,
+        "context_hit": true,
+        "prompt_chars": 9337,
+        "tokens": 2420,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "People will be able to see the blue moon, supermoon, and total lunar eclipse happening together in the following locations, as cited in the articles:\n\n- **\"Blue moon, supermoon, total lunar eclipse rolled into one\"**: Hawaii and Alaska have the best seats, along with the Canadian Yukon, Australia, and Asia. The western U.S. should have good viewing, too, along with Russia.\n- **\"Lunar Showstopper: 1st super blue blood moon in 35 years\"**: Hawaii and Alaska have the best seats, along with the Canadian Yukon, Australia, and Asia. The western U.S. should have good viewing, too, along with Russia.\n- **\"Blue moon, supermoon, total lunar eclipse rolled into one\"**: The eclipse will be visible best in the western half of the U.S. and Canada before the moon sets early Wednesday morning, and across the Pacific into Asia as the moon rises Wednesday night into Thursday."
+      }
+    ],
+    "full": [
+      {
+        "id": 0,
+        "context_hit": true,
+        "prompt_chars": 6369,
+        "tokens": 1466,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The former governor of Veracruz, Luis Javier Duarte, is facing charges of diverting public funds for his personal enrichment. This is mentioned in article [1], which states that he will face allegations of diverting public funds for his personal enrichment, including the purchase of a luxury ranch with paintings by masters such as Joan Miro and Leonora Carrington. Additionally, U.S. prosecutors have alleged that he \"accepted millions of dollars in drug cartel bribes and invested it in Texas real estate,\" as noted in article [2]."
+      },
+      {
+        "id": 1,
+        "context_hit": true,
+        "prompt_chars": 5824,
+        "tokens": 1429,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The best time to view the partial eclipse in the Tri-Cities is from 1:07 p.m. to 2:36 p.m. According to the article titled [1], the partial eclipse will start at 1:07 p.m., and the maximum eclipse will happen at 2:36 p.m."
+      },
+      {
+        "id": 2,
+        "context_hit": true,
+        "prompt_chars": 6375,
+        "tokens": 1476,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "When the JoogSquad were approached by officials near the Los Angeles River, they got off the raft and pulled it off to the side of the river. This information is from the article titled \"Group floats down Los Angeles River in inflatable pink flamingo raft.\""
+      },
+      {
+        "id": 3,
+        "context_hit": true,
+        "prompt_chars": 6053,
+        "tokens": 1440,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The helicopter crashed into a home in Newport Beach, California, according to the article titled [1]. \n\nAccording to the eyewitness account in the article [2], the pilot was lying injured but alive on the grass. \n\nThe condition of the pilot according to the article [3] is not specified, but it is mentioned that the pilot was seen lying injured but alive on the grass. \n\nThe article [4] discusses a different incident involving an F-16 jet in Arizona, and the article [5] discusses a military helicopter crash in Maryland, which is unrelated to the crash in Newport Beach."
+      },
+      {
+        "id": 4,
+        "context_hit": true,
+        "prompt_chars": 6751,
+        "tokens": 1721,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Valentino Rossi believes Yamaha's failure to win 15 races in a row is not a coincidence because he thinks Yamaha's current performance is \"not enough\" and that the team is \"not very reactive\" in fixing its issues. This is mentioned in the article titled: [1] \"Tech3 rider Zarco's MotoGP form proves Yamaha went wrong - Vinales\"."
+      },
+      {
+        "id": 5,
+        "context_hit": true,
+        "prompt_chars": 6348,
+        "tokens": 1538,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Coach Hemand Kumar identifies two main challenges for the future of wrestling in modern India:\n\n1. The rich kids do not want to take up wrestling, while those who don't have the money are interested but lack the resources. This is mentioned in the article titled \"Ancient wrestling offers a future for some in modern India.\"\n\n2. It is getting more difficult to find the land needed to set up new akhadas. This is also mentioned in the article titled \"Ancient wrestling offers a future for some in modern India.\""
+      },
+      {
+        "id": 6,
+        "context_hit": true,
+        "prompt_chars": 7806,
+        "tokens": 1767,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The new DHL Americas Innovation Center is located in Rosemont, Illinois. This information is found in the article titled \"New DHL Americas Innovation Center to Promote Future of Logistics.\"\n\nThe purpose of the DHL Americas Innovation Center in relation to technology and logistics is to exhibit the technologies and innovations in logistics that DHL is already implementing across the region, and to foster the development of future logistics and supply chain solutions. It also serves as a regional platform for collaborative innovation. This information is also found in the article titled \"New DHL Americas Innovation Center to Promote Future of Logistics.\""
+      },
+      {
+        "id": 7,
+        "context_hit": true,
+        "prompt_chars": 5979,
+        "tokens": 1857,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Based on the information provided in the passages, here are some of the criminal charges and convictions Moore had in Wake County between 1990 and 2015, with the corresponding article titles cited:\n\n1. **Breaking and entering and larceny** - Mentioned in [1].\n2. **Operating a vehicle without a license, speeding from police, possession of a schedule Vi controlled substance and reckless driving** - Mentioned in [1].\n3. **Common law robbery and receiving stolen goods** - Mentioned in [1].\n4. **Possession with intent to sell a schedule II controlled substance and conspiracy to sell a schedule II controlled substance** - Mentioned in [1].\n5. **Assault on a female and injury to property** - Mentioned in [1].\n6. **Larceny** - Mentioned in [1].\n7. **Assault on a female** - Mentioned in [1].\n8. **Injury to property** - Mentioned in [1].\n9. **Assault on a female and driving while impaired** - Mentioned in [1].\n10. **Violation of a protective order and assault by strangulation** - Mentioned in [1].\n11. **Driving while impaired** - Mentioned in [1].\n12. **Felony breaking and entering, robbery with a dangerous weapon and larceny** - Mentioned in [2].\n13. **Common law robbery** - Mentioned in [2].\n14. **Felony breaking and entering, possession of a firearm by a felon and larceny from a person** - Mentioned in [2].\n15. **Robbery with a dangerous weapon and possession of a firearm by a felon** - Mentioned in [2].\n16. **Larceny after breaking and entering** - Mentioned in [2].\n\nNote: The information in [3] and [4] does not pertain to Moore's criminal charges in Wake County between 1990 and 2015. The information in [5] also does not pertain to Moore's criminal charges."
+      },
+      {
+        "id": 8,
+        "context_hit": true,
+        "prompt_chars": 8674,
+        "tokens": 1864,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "SIFLEX, a Korean manufacturer, decided to switch its SAP application support to Rimini Street because it allowed the company to reduce its maintenance fees by 50% and maximize its current, stable and robust ERP ECC 5.0 system for a minimum of 15 years from the time the company transitioned to Rimini Street support. This decision also freed up internal IT personnel to focus on more pressing initiatives within the organization. (Cite: [2]) \n\nAdditionally, by switching to Rimini Street\u2019s award-winning support, SIFLEX was able to unlock significant resources in both time and money for IT transformation projects. (Cite: [1])"
+      },
+      {
+        "id": 9,
+        "context_hit": true,
+        "prompt_chars": 6848,
+        "tokens": 1604,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Italy's EU affairs representative, Sandro Gozi, emphasized the importance of clarity on future relations, stating, \"The sooner the Brits are clear about the future, the better for everybody.\" This is mentioned in the passage titled \"[2] Title: EU warns Britain it can have no say during Brexit transition.\"\n\nThe Brexit negotiator, Michel Barnier, said, \"Without an agreement on all parts of the withdrawal there can be no transition,\" which is also mentioned in the passage titled \"[2] Title: EU warns Britain it can have no say during Brexit transition.\""
+      },
+      {
+        "id": 10,
+        "context_hit": true,
+        "prompt_chars": 6517,
+        "tokens": 1445,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Florida prosecutors might consider letting Minnesota try Riess first for the murder charge because a prior crime of violence could be an aggravating factor for the death penalty. This is mentioned in the article titled \"[1] Experts: Minnesota woman likely to face Florida charge first\". Additionally, the article notes that if Minnesota convicts Riess of murder, that conviction could be used to bolster Florida's argument for the death penalty."
+      },
+      {
+        "id": 11,
+        "context_hit": true,
+        "prompt_chars": 5689,
+        "tokens": 1229,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The rescue ship with 60 migrants went to Barcelona after being refused entry by Italy and Malta. This information is found in the article titled \"60 migrants refused by Italy and Malta arrive in Barcelona.\""
+      },
+      {
+        "id": 12,
+        "context_hit": true,
+        "prompt_chars": 7418,
+        "tokens": 1835,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Rahawa Haile through-hiked the Appalachian Trail in 2016, completing its entire length alone as a young African-American woman. (Title: Black Bodies, Green Spaces) \n\nDuring her hike, she carried along a series of books by black authors, which she left in trail shelters along the way. (Title: Black Bodies, Green Spaces) \n\nAdditionally, Rahawa Haile was one of the very few black women to attempt to hike the entire trail in 2016. (Title: Black Bodies, Green Spaces)"
+      },
+      {
+        "id": 13,
+        "context_hit": true,
+        "prompt_chars": 5712,
+        "tokens": 1763,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The key players and team members involved in the Pittsburgh Steelers' victory that secured their AFC North title include:\n\n1. **Ben Roethlisberger** - The quarterback who contributed to the team's success, as mentioned in the article titled \"[1] Steelers wrap up AFC North title, set up showdown with Pats.\"\n2. **Le'Veon Bell** - The running back who played a significant role, as noted in the article titled \"[1] Steelers wrap up AFC North title, set up showdown with Pats.\"\n3. **Antonio Brown** - The wide receiver who was part of the team's overall effort, as mentioned in the article titled \"[1] Steelers wrap up AFC North title, set up showdown with Pats.\"\n4. **Chris Boswell** - The kicker who hit four game-winning field goals in the final minute in four of Pittsburgh's past five games, as stated in the article titled \"[1] Steelers wrap up AFC North title, set up showdown with Pats.\"\n5. **Jessie James and Vance McDonald** - The tight ends who combined for 14 receptions for 149 yards, as noted in the article titled \"[1] Steelers wrap up AFC North title, set up showdown with Pats.\"\n6. **Roosevelt Nix** - The fullback who scored his first career touchdown on a 1-yard reception, as mentioned in the article titled \"[1] Steelers wrap up AFC North title, set up showdown with Pats.\"\n7. **Maurkice Pouncey** - The center who spoke about the upcoming showdown with the New England Patriots, as stated in the article titled \"[2] Steelers wrap up AFC North title, set up showdown with Pats.\"\n\nThe team members involved include the **Pittsburgh Steelers** as a whole, with the article titled \"[1] Steelers wrap up AFC North title, set up showdown with Pats\" highlighting the overall team effort. The **New England Patriots** are the team set to face the Steelers in their upcoming game, as mentioned in the article titled \"[2] Steelers wrap up AFC North title, set up showdown with Pats.\""
+      },
+      {
+        "id": 14,
+        "context_hit": true,
+        "prompt_chars": 6111,
+        "tokens": 1549,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Tom Parker took several steps to prepare for his role in the Grease musical at Milton Keynes. He watched the film to get the style of acting required in the field (Title: Interview: The Wanted's Tom Parker talks about Grease role at Milton Keynes). He also mentioned that there were challenges in learning the script, but he used transferable skills from performing in the band (Title: Interview: The Wanted's Tom Parker talks about Grease role at Milton Keynes). Additionally, he acknowledged the complex choreography and felt confident about his ability to perform it (Title: Interview: The Wanted's Tom Parker talks about Grease role at Milton Keynes)."
+      },
+      {
+        "id": 15,
+        "context_hit": true,
+        "prompt_chars": 5686,
+        "tokens": 1328,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Nicol\u00e1s Melmann is planning to perform Cartridge Music by John Cage at the Paraninfo in Barcelona, as mentioned in the article titled \"Nicol\u00e1s Melmann: \u201cAnother Dimension.\u201d Interview by Paranoid.\" The other event that will take place at the San Agust\u00edn Convent is an installation, as stated in the same article."
+      },
+      {
+        "id": 16,
+        "context_hit": true,
+        "prompt_chars": 7231,
+        "tokens": 1601,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The train carrying GOP lawmakers to a policy retreat in White Sulfur Springs, West Virginia, collided with a garbage truck. This information is detailed in the article titled \"[1] Title: Train carrying GOP lawmakers to policy retreat hits truck\". The collision occurred south of Charlottesville, Virginia, and the train is described as partially derailed in the same article. The garbage truck was involved in the collision, as stated in the article titled \"[1] Title: Train carrying GOP lawmakers to policy retreat hits truck\"."
+      },
+      {
+        "id": 17,
+        "context_hit": true,
+        "prompt_chars": 6564,
+        "tokens": 1448,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The first female premier of Romania is Viorica Dancila. Her goals for the country's economy include having Romania in the top half of the EU's strongest economies by 2020 so that young people no longer leave Romania, and those that have left want to return. This information is cited from the article titled \"[1] Title: Romania approves first female premier amid protests\"."
+      },
+      {
+        "id": 18,
+        "context_hit": true,
+        "prompt_chars": 8421,
+        "tokens": 1870,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Yes, the White House is considering a legal and national security review of a classified memo related to the Russia investigation before deciding whether to release it. This is mentioned in the following articles:\n\n1. \"The Latest: Schiff says Russia memo doesn't vindicate Trump\" - It states, \"The White House says it will give a controversial memo connected to the Russia election meddling probe a legal and national security check before President Donald Trump decides whether to release it.\"\n\n2. \"Trump favors release of memo White House wants reviewed\" - It states, \"The White House had said before the speech that it was still conducting a legal and national security review of the document.\"\n\n3. \"House intel committee votes to release classified memo\" - It states, \"The White House said late Monday that the president will meet with his national security team and White House counsel to discuss the memo in the coming days.\"\n\n4. \"FBI in public fight with Trump over releasing Russia memo\" - It states, \"White House spokeswoman Sarah Huckabee Sanders told CNN Wednesday that a legal and national security review of the document was continuing.\"\n\n5. \"Trump favors release of memo White House wants reviewed\" - It states, \"A senior White House official said the National Security Council is leading an interagency review of the memo.\""
+      },
+      {
+        "id": 19,
+        "context_hit": true,
+        "prompt_chars": 6105,
+        "tokens": 1446,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Stumpf has been on death row for more than 12,000 days, as stated in article [2]. The factors that have contributed to the delay in his execution include court appeals, Ohio's struggle to find lethal drugs, and a reprieve from Gov. John Kasich which moved Stumpf's execution from January of next year to November to allow more time for legal arguments over Ohio's new lethal injection process, as mentioned in article [1]."
+      },
+      {
+        "id": 20,
+        "context_hit": true,
+        "prompt_chars": 8592,
+        "tokens": 2131,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "BAE Systems and Dell EMC collaborated to offer a federated secure cloud solution for the U.S. Government. This solution is described as the first scalable, hybrid cloud solution of its kind for the U.S. government, and it is flexible enough to power agency-level IT modernization or support smaller, forward-operating units. (\"BAE Systems and Dell EMC collaborate to offer mission-ready cloud solution for the U.S. Government\") \n\nThe solution includes zero-anonymity security features for security administrators to monitor, track, and control in real time all software, hardware, and user access to their respective clouds. (\"BAE Systems and Dell EMC collaborate to offer mission-ready cloud solution for the U.S. Government\")\n\nThe solution satisfies more than 900 security controls and offers the highest assurance enterprise desktop services available in the government, with more than 30 controls from Intelligence Community overlay subpart C (INT-C) for rapid deployment authorization. (\"BAE Systems and Dell EMC collaborate to offer mission-ready cloud solution for the U.S. Government\") \n\nThis architecture enables administrators to automate the process of facilitating patches and updates, minimizing disruptions to users and missions while also reducing localized IT administrative costs. (\"BAE Systems and Dell EMC collaborate to offer mission-ready cloud solution for the U.S. Government\") \n\n\"Our solution arrives mission-ready and pre-engineered with the security credentials required to operate in a secure government environment.\" (\"BAE Systems and Dell EMC collaborate to offer mission-ready cloud solution for the U.S. Government\") \n\n\"When it comes to enterprise IT and cloud, U.S. government agencies want mission-ready turnkey solutions,\" said Steve Harris, senior vice president and general manager of Dell EMC\u2019s federal business. \"Our federated secure cloud arrives embedded with customizable Dell EMC and VMware technologies to meet an agency\u2019s unique mission needs.\" (\"BAE Systems and Dell EMC collaborate to offer mission-ready cloud solution for the U.S. Government\")"
+      },
+      {
+        "id": 21,
+        "context_hit": true,
+        "prompt_chars": 6417,
+        "tokens": 1661,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The cost of the LattePanda Delta is $129, while the LattePanda Alpha starts at $289. This information is found in the article titled: \"Size of a Raspberry Pi, power of a MacBook: The Window 10-powered LattePanda Alpha.\""
+      },
+      {
+        "id": 22,
+        "context_hit": true,
+        "prompt_chars": 3646,
+        "tokens": 1449,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 1
+        },
+        "answer": "According to Nielsen's top programs for April 16-22, the television program with the highest viewership rating was \"Roseanne\" on ABC with 13.27 million viewers. This information is cited from the article titled \"Nielsen's top programs for April 16-22.\""
+      },
+      {
+        "id": 23,
+        "context_hit": true,
+        "prompt_chars": 8566,
+        "tokens": 1907,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The main challenges to unifying the Civic Center Public Realm according to the study are:\n\n1. Highly-trafficked streets\u2014Polk, Larkin, and Hyde\u2014that break up the visual axis from Market Street to City Hall. This is mentioned in the article titled \"City agencies host Civic Center public realm workshop.\"\n\n2. Large, single-use buildings like government offices, performance spaces, and museums create \"long, inactive facades with few openings and very little transparency,\" leaving the center of Civic Center dull and unattractive to nearby tenants. This is also mentioned in the article titled \"City agencies host Civic Center public realm workshop.\"\n\n3. The area's governance is overseen by a slew of organizations, which divide the area along Larkin Street. This information is found in the article titled \"City agencies host Civic Center public realm workshop.\"\n\n4. The neighborhood is also split by two police jurisdictions: the Tenderloin and Northern SFPD districts currently each border Larkin Street. This detail is also from the article titled \"City agencies host Civic Center public realm workshop.\""
+      },
+      {
+        "id": 24,
+        "context_hit": true,
+        "prompt_chars": 8044,
+        "tokens": 1822,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The major countries that produce biofuel are the US, Brazil, Germany, China, Argentina, and France, as stated in the article titled \"Rise in Demand for Biofuels to Boost Growth.\" The rising demand for biofuels is having a positive impact on the global biotech seeds market, as it is one of the key emerging trends highlighted in the same article. The increased demand for biofuels is driving the growth of the biotech seeds market due to the use of genetically modified versions of energy crops such as wheat, sugarcane, soybean, and corn in the production of biofuels."
+      },
+      {
+        "id": 25,
+        "context_hit": true,
+        "prompt_chars": 6522,
+        "tokens": 1679,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The ACTIVE FUNNEL is an advanced SOx abatement system that is most suitable for very large container ships with high exhaust gas emissions and limited installation space for SOx abatement systems. It can desulfurize large amounts of exhaust gas and its flexible design makes it possible to be installed even in narrow spaces between the container holds, while maintaining a vessel\u2019s container capacity. The ACTIVE FUNNEL is also suitable for installation on existing ships since it is provided as one module and has a short retrofitting period. The ACTIVE FUNNEL is applicable to both open-loop systems and hybrid systems. \n\nThe ACTIVE FUNNEL will be applied to very large container ships and will be expanded to very large crude carriers (VLCC: 200,000-310,000 DWT) and very large ore carriers (VLOC) in the future. \n\nCitations:\n- \"Mitsubishi Shipbuilding and MHPS Launch Advanced SOx Abatement System ACTIVE FUNNEL\" \n- \"Mitsubishi Shipbuilding and MHPS Launch Advanced SOx Abatement System ACTIVE FUNNEL\""
+      },
+      {
+        "id": 26,
+        "context_hit": true,
+        "prompt_chars": 5857,
+        "tokens": 1414,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "San Francisco's city attorney, Dennis Herrera, took the following actions against the alleged brothel operators:\n\n1. Filed a lawsuit against the massage parlor, alleging it operates as a brothel. (Title: San Francisco's city attorney files lawsuit against alleged brothel)\n2. Charged the massage parlor with operating as a brothel and cited the establishment with multiple fines for violating health codes and other laws over at least six years. (Title: San Francisco's city attorney files lawsuit against alleged brothel)\n3. Mentioned that the operating permit of the establishment was revoked for 60 days. (Title: San Francisco's city attorney files lawsuit against alleged brothel)\n4. Noted that there have been numerous police undercover operations at the establishment, where individuals were found engaging in sex. (Title: San Francisco's city attorney files lawsuit against alleged brothel)\n5. Indicated that the city hopes to close the business for at least a year. (Title: San Francisco's city attorney files lawsuit against alleged brothel)"
+      },
+      {
+        "id": 27,
+        "context_hit": true,
+        "prompt_chars": 7188,
+        "tokens": 1584,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Yes, the insurance companies are refusing to cover Duke Energy's coal ash cleanup costs because they claim the damage was intentional and not caused by a distinct pollution event. This is stated in the article titled \"[1] Insurers: We're off the hook, Duke Energy knew coal ash risk\" where it says, \"any property damage 'was caused intentionally, by or at Duke's direction' and there weren't any distinct pollution events that triggered coverage.\""
+      },
+      {
+        "id": 28,
+        "context_hit": true,
+        "prompt_chars": 6696,
+        "tokens": 1747,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The South Bend International Airport has taken the following steps toward adding international flights since 2014:\n\n1. The airport announced plans for international service in 2014. (Article Title: Indiana airport works to add international flights)\n2. The airport began construction of a new customs facility by 2015. (Article Title: Indiana airport works to add international flights)\n3. Most of the $7.9 million funding for the customs facility came from grant money provided by the Federal Aviation Administration. (Article Title: Indiana airport works to add international flights)\n4. The Indiana Department of Transportation also contributed $436,580 toward the customs facility. (Article Title: Indiana airport works to add international flights)\n5. Construction on the customs facility was completed last year. (Article Title: Indiana airport works to add international flights)\n6. The facility has handled 47 international arrivals. (Article Title: Indiana airport works to add international flights)\n7. The airport has had flights from Canada, Mexico, Brazil, Italy, and France. (Article Title: Indiana airport works to add international flights)\n8. The airport continues to work on attracting an international commercial flight, which is still a few steps away from the negotiating table with airlines or travel agencies. (Article Title: Indiana airport works to add international flights)"
+      },
+      {
+        "id": 29,
+        "context_hit": true,
+        "prompt_chars": 6861,
+        "tokens": 1601,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The Zhuangwei Sand-Dune Line bus service operates from 8:30 a.m. until 4:30 p.m. on weekdays. This information is cited from the article titled \"[1] Taiwan Tourist Shuttle launches Zhuangwei Sand-Dune Line June 1.\""
+      },
+      {
+        "id": 30,
+        "context_hit": true,
+        "prompt_chars": 7674,
+        "tokens": 2184,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The blood lead level thresholds for children in the United States and the health actions recommended for each level are as follows:\n\n- **>0 (\u00b5g/dL):** Even at birth, all people have some lead in their blood. However, the CDC says no level of exposure has been deemed safe for children. (Title: Lead exposure in children: a guide to U.S. standards)\n- **1.0 - 1.3 (\u00b5g/dL):** This is the average blood lead level among U.S. children ages 1-5. (Title: Lead exposure in children: a guide to U.S. standards)\n- **3.5 (\u00b5g/dL):** The CDC is considering using this level as a new \"reference value\" to identify children under age six with elevated blood lead levels. (Title: CDC considers lowering threshold level for lead exposure)\n- **5 (\u00b5g/dL):** The CDC's current reference level for an elevated childhood blood level that warrants public health action, close monitoring or case management. Some 500,000 U.S. children are at or above this level, which some states define as lead poisoning. (Title: Lead exposure in children: a guide to U.S. standards)\n- **10 (\u00b5g/dL):** Children who reach this threshold require closer attention and action to limit further lead exposure. Many states conduct inspections of the poisoned child's living environment to identify exposure sources. Research shows that a blood lead level of 10 (\u00b5g/dL) can lower IQ by 4 to 6 points on average. (Title: Lead exposure in children: a guide to U.S. standards)\n- **45 (\u00b5g/dL):** Poisoning that may require hospitalization and chelation drug treatment, which helps the body to excrete lead. The drugs aren't considered effective for children with lower blood lead levels. (Title: Lead exposure in children: a guide to U.S. standards)\n- **>70 (\u00b5g/dL):** Left unchecked, acute lead poisoning can cause seizures, coma and death. (Title: Lead exposure in children: a guide to U.S. standards)\n\nThe CDC may lower its reference level to 3.5 micrograms per deciliter in the coming months, which could lead to more children being identified as having elevated blood lead levels and requiring public health action. (Title: CDC considers lowering threshold level for lead exposure)"
+      },
+      {
+        "id": 31,
+        "context_hit": true,
+        "prompt_chars": 5594,
+        "tokens": 1515,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The Lazio goalkeeper who made a great save to prevent a goal from Patrick Cutrone in the 75th minute of the cup match against Milan was Thomas Strakosha. This information is found in the article titled \"Calhanoglu misses sitter as Milan draws against Lazio in cup.\""
+      },
+      {
+        "id": 32,
+        "context_hit": true,
+        "prompt_chars": 5575,
+        "tokens": 1541,
+        "grade": {
+          "faithfulness": 4,
+          "relevance": 5,
+          "correctness": 4
+        },
+        "answer": "At the 60th annual Grammy Awards, several performers were highlighted for their performances and the cultural influences they showcased:\n\n1. Elton John and Miley Cyrus performed a rendition of Elton John's ballad \"Tiny Dancer,\" which drew praise for its emotional impact and the cultural reference to the \"Time's Up\" movement, symbolized by the white rose on the piano. This performance is mentioned in the article titled \"Plenty of fire and fury at 60th annual Grammy Awards.\"\n\n2. Bruno Mars performed a song titled \"Finesse,\" which brought the show back to the '90s with a performance that was a musical and cultural homage to new jack swing, \"In Living Color,\" and Mars' brand of funk and R&B. This is also mentioned in the article titled \"Plenty of fire and fury at 60th annual Grammy Awards.\"\n\n3. Country artists Eric Church, Maren Morris, and Brothers Osborne delivered a moving performance of Eric Clapton's \"Tears in Heaven,\" which was a tribute to victims of concert attacks. This performance is detailed in the article titled \"Country artists deliver tribute to concert attack victims.\"\n\n4. Tony Award winners Ben Platt and Patti LuPone delivered tributes to composers Andrew Lloyd Webber and Leonard Bernstein, highlighting the city's rich history of musical theater. This is mentioned in the article titled \"Plenty of fire and fury at 60th annual Grammy Awards.\""
+      },
+      {
+        "id": 33,
+        "context_hit": true,
+        "prompt_chars": 8320,
+        "tokens": 1901,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "State Auto Insurance was awarded the 2018 TEACH Partner Award by DeVryWORKS (\"DeVryWORKS Announces 2018 TEACH Partner Award Recipient\"). The key characteristics of their approach to employee development include energy and accountability, with coaching programs that have replaced annual performance appraisals. Their training sessions are designed to instill confidence, integrity, professionalism, and a personal power base centered on honesty, fairness, and openness (\"DeVryWORKS Announces 2018 TEACH Partner Award Recipient\")."
+      },
+      {
+        "id": 34,
+        "context_hit": true,
+        "prompt_chars": 7272,
+        "tokens": 1627,
+        "grade": {
+          "faithfulness": 3,
+          "relevance": 4,
+          "correctness": 3
+        },
+        "answer": "Some voters switched their registration from Republican to Democrat because of the GOP's efforts to repeal the Affordable Care Act due to the following reasons:\n\n1. The failed efforts by congressional Republicans last year to repeal the Affordable Care Act exposed deep divisions within the party and revealed core benefits of the law that millions of Americans now take for granted. This is mentioned in the article titled \"Strong health sign-ups under Obamacare encourage Democrats.\"\n\n2. Voters like Jeanine Limone Draut, a freelance technical writer in Denver, are concerned about the uncertainty surrounding the law's future and how it affects small business owners. This is also mentioned in the article titled \"Strong health sign-ups under Obamacare encourage Democrats.\"\n\n3. The article titled \"Virginia set to expand Medicaid, as Senate OKs proposal\" indicates that some Republican state legislators in Virginia flipped positions due to the failure by the GOP-led Congress to repeal and replace the health law, which led to a shift in support towards Democratic proposals for expanding Medicaid."
+      },
+      {
+        "id": 35,
+        "context_hit": true,
+        "prompt_chars": 9109,
+        "tokens": 1878,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The global industrial automation device manager software market is segmented into the following regions: the Americas, APAC, and EMEA. This information is found in the article titled \"Global Industrial Automation Device Manager Software Market - Demand for Real-time Data Analysis to Boost Growth.\" \n\nThe market share of the Americas in 2017 was over 36%, as stated in the same article."
+      },
+      {
+        "id": 36,
+        "context_hit": true,
+        "prompt_chars": 5729,
+        "tokens": 1628,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The person who was shot on Southbound I-880 in San Leandro was struck in the head and is now hospitalized in critical condition. This information is cited from the following articles:\n\n1. \"Another freeway shooting in San Leandro leaves driver in critical condition\" - This article states, \"The young driver was struck in the head and is now hospitalized.\"\n\n2. \"Police investigate southbound I-880 shooting in San Leandro that left one in critical condition\" - This article mentions, \"The victim was taken to a nearby hospital, and is currently in critical condition.\"\n\n3. \"Southbound I-880 in San Leandro reopens following shooting investigation\" - This article notes, \"The victim was taken to a nearby hospital, and is in critical condition.\"\n\n4. \"Police investigate southbound I-880 shooting in San Leandro that left one in critical condition\" - This article states, \"The victim was taken to a nearby hospital, and is in critical condition.\"\n\n5. \"Shooting investigation closes southbound I-880 in San Leandro\" - This article mentions, \"The victim was taken to a nearby hospital, and is in critical condition.\""
+      },
+      {
+        "id": 37,
+        "context_hit": true,
+        "prompt_chars": 6792,
+        "tokens": 1736,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "The impact of the tax cut plan on Anthem's profit was significant, as it recorded a $1.1 billion benefit from corporate tax cuts in the fourth quarter, which contributed to its profit surge. This is detailed in the article titled \"Anthem's 4Q profit surges on higher rates, tax benefit.\"\n\nAnthem planned to increase its dividend by a nickel, which was part of its strategy to reward shareholders. This information is also from the article titled \"Anthem's 4Q profit surges on higher rates, tax benefit.\" Additionally, the company announced that it would bump the quarterly dividend it pays shareholders up to 75 cents a share starting in March, as mentioned in the article titled \"Anthem's 4Q profit surges on higher rates, tax benefit.\""
+      },
+      {
+        "id": 38,
+        "context_hit": true,
+        "prompt_chars": 7173,
+        "tokens": 1578,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "Congressman Paul Gosar suggested that any \"illegal aliens\" who attend the State of the Union address should be arrested and deported. This claim is found in the article titled [1]. \n\nThe reaction from Senator Jeff Flake was a tweet where he said, \"This is why we can't have nice things...\" This reaction is also mentioned in the article titled [1]."
+      },
+      {
+        "id": 39,
+        "context_hit": true,
+        "prompt_chars": 6322,
+        "tokens": 1688,
+        "grade": {
+          "faithfulness": 5,
+          "relevance": 5,
+          "correctness": 5
+        },
+        "answer": "People will be able to see the blue moon, supermoon, and total lunar eclipse happening together in the following locations, as stated in the articles:\n\n- **\"Blue moon, supermoon, total lunar eclipse rolled into one\"**: The eclipse will be visible best in the western half of the U.S. and Canada before the moon sets early Wednesday morning, and across the Pacific into Asia as the moon rises Wednesday night into Thursday.\n- **\"Lunar Showstopper: 1st super blue blood moon in 35 years\"**: Hawaii and Alaska have the best seats, along with the Canadian Yukon, Australia and Asia. The western U.S. should have good viewing, too, along with Russia.\n- **\"Blue moon, supermoon, total lunar eclipse rolled into one\"**: The U.S. East Coast, Europe and most of South America and Africa are out of luck for the eclipse."
+      }
+    ]
+  }
+}

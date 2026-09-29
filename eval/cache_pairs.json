@@ -1,0 +1,502 @@
+[
+ {
+  "question": "What charges is the former governor of Veracruz, Luis Javier Duarte, facing in Mexico?",
+  "paraphrase": "What legal accusations is the ex-governor of Veracruz, Luis Javier Duarte, currently dealing with in Mexico?",
+  "different": "What charges is the former governor of Veracruz, Luis Javier Duarte, facing in Mexico?"
+ },
+ {
+  "question": "When is the best time to view the partial eclipse in the Tri-Cities?",
+  "paraphrase": "What is the optimal time to see the partial eclipse in the Tri-Cities area?",
+  "different": "When is the best time to view the partial eclipse in Seattle?"
+ },
+ {
+  "question": "What did the JoogSquad do when they were approached by officials near the Los Angeles River?",
+  "paraphrase": "What action did the JoogSquad take when they encountered officials close to the Los Angeles River?",
+  "different": "What did the JoogSquad do when they were approached by officials near the San Francisco Bay?"
+ },
+ {
+  "question": "Where did the helicopter crash and what was the condition of the pilot according to the eyewitness?",
+  "paraphrase": "Where was the helicopter involved in the crash and how was the pilot doing, according to the witness?",
+  "different": "Where did the airplane crash and what was the condition of the pilot according to the eyewitness?"
+ },
+ {
+  "question": "Why does Valentino Rossi believe Yamaha's failure to win 15 races in a row is not a coincidence?",
+  "paraphrase": "What makes Valentino Rossi think that Yamaha's inability to secure 15 consecutive race wins isn't just a random occurrence?",
+  "different": "Why does Valentino Rossi believe Honda's failure to win 15 races in a row is not a coincidence?"
+ },
+ {
+  "question": "What challenges does Coach Hemand Kumar identify for the future of wrestling in modern India?",
+  "paraphrase": "What obstacles does Coach Hemand Kumar see for the future of wrestling in contemporary India?",
+  "different": "What challenges does Coach Hemand Kumar identify for the future of wrestling in modern Pakistan?"
+ },
+ {
+  "question": "Where is the new DHL Americas Innovation Center located, and what is its purpose in relation to technology and logistics?",
+  "paraphrase": "What is the location of the new DHL Americas Innovation Center, and how does it relate to technology and logistics?",
+  "different": "Where is the new DHL Europe Innovation Center located, and what is its purpose in relation to technology and logistics?"
+ },
+ {
+  "question": "What were some of the criminal charges and convictions Moore had in Wake County between 1990 and 2015?",
+  "paraphrase": "What criminal charges and convictions did Moore face in Wake County from 1990 up to 2015?",
+  "different": "What were some of the criminal charges and convictions Moore had in Durham County between 1990 and 2015?"
+ },
+ {
+  "question": "Why did SIFLEX, a Korean manufacturer, decide to switch its SAP application support to Rimini Street?",
+  "paraphrase": "What was the reason behind SIFLEX, a Korean company, moving its SAP application support to Rimini Street?",
+  "different": "Why did SIFLEX, a Japanese manufacturer, decide to switch its SAP application support to Rimini Street?"
+ },
+ {
+  "question": "What did Italy's EU affairs representative and the Brexit negotiator say about the importance of finalizing all aspects of the Brexit deal before starting the transition period?",
+  "paraphrase": "What did Italy's EU representative and the Brexit negotiator emphasize regarding the necessity of completing the Brexit agreement prior to initiating the transition phase?",
+  "different": "What did Italy's EU affairs representative and the Brexit negotiator say about the importance of finalizing all aspects of the Brexit deal before starting the transition period?"
+ },
+ {
+  "question": "Why might Florida prosecutors consider letting Minnesota try Riess first for the murder charge?",
+  "paraphrase": "What could be the reason Florida prosecutors might allow Minnesota to take the lead in prosecuting Riess for the murder charge?",
+  "different": "Why might Florida prosecutors consider letting Texas try Riess first for the murder charge?"
+ },
+ {
+  "question": "Where did the rescue ship with 60 migrants go after being refused entry by Italy and Malta?",
+  "paraphrase": "After Italy and Malta denied entry, where did the rescue ship carrying 60 migrants end up?",
+  "different": "Where did the rescue ship with 150 migrants go after being refused entry by Italy and Malta?"
+ },
+ {
+  "question": "What did Rahawa Haile do during her hike on the Appalachian Trail in 2016?",
+  "paraphrase": "What activity did Rahawa Haile engage in while hiking on the Appalachian Trail in 2016?",
+  "different": "What did Rahawa Haile do during her hike on the Appalachian Trail in 2017?"
+ },
+ {
+  "question": "Who are the key players and team members involved in the Pittsburgh Steelers' victory that secured their AFC North title and set up their upcoming game against the New England Patriots?",
+  "paraphrase": "Which important players and team personnel were part of the Pittsburgh Steelers' win that earned them the AFC North championship and led to their next matchup with the New England Patriots?",
+  "different": "Who are the key players and team members involved in the Pittsburgh Steelers' victory that secured their AFC South title and set up their upcoming game against the New England Patriots?"
+ },
+ {
+  "question": "What steps did Tom Parker take to prepare for his role in the Grease musical at Milton Keynes?",
+  "paraphrase": "What actions did Tom Parker take to get ready for his part in the Grease musical in Milton Keynes?",
+  "different": "What steps did Tom Parker take to prepare for his role in the Grease musical at London West End?"
+ },
+ {
+  "question": "Where is Nicolás Melmann planning to perform Cartridge Music by John Cage and what other event will take place at the San Agustín Convent?",
+  "paraphrase": "What venue is Nicolás Melmann set to play John Cage's Cartridge Music and what additional activity is scheduled at the San Agustín Convent?",
+  "different": "Where is Nicolás Melmann planning to perform Cartridge Music by John Cage and what other event will take place at the San José Convent?"
+ },
+ {
+  "question": "What happened to the train carrying GOP lawmakers to a policy retreat in White Sulfur Springs, West Virginia, and what vehicle was involved in the collision?",
+  "paraphrase": "What occurred when a train transporting Republican lawmakers to a policy retreat in White Sulfur Springs, West Virginia, was involved in a collision, and what type of vehicle was responsible?",
+  "different": "What happened to the train carrying GOP lawmakers to a policy retreat in White Sulfur Springs, Nevada, and what vehicle was involved in the collision?"
+ },
+ {
+  "question": "Who is the first female premier of Romania and what are her goals for the country's economy?",
+  "paraphrase": "Who was the first woman to serve as the prime minister of Romania, and what economic objectives does she have for the nation?",
+  "different": "Who is the first female premier of Canada and what are her goals for the country's economy?"
+ },
+ {
+  "question": "Is the White House considering a legal and national security review of a classified memo related to the Russia investigation before deciding whether to release it?",
+  "paraphrase": "Is the White House planning to conduct a legal and national security assessment of a classified document concerning the Russia probe prior to making it public?",
+  "different": "Is the White House considering a legal and national security review of a classified memo related to the Ukraine investigation before deciding whether to release it?"
+ },
+ {
+  "question": "How long has Stumpf been on death row and what factors have contributed to the delay in his execution?",
+  "paraphrase": "For how many years has Stumpf been awaiting execution, and what reasons have caused the postponement of his sentence?",
+  "different": "How long has Thompson been on death row and what factors have contributed to the delay in his execution?"
+ },
+ {
+  "question": "What specific cloud solution did BAE Systems and Dell EMC collaborate to offer for the U.S. Government?",
+  "paraphrase": "Which particular cloud solution did BAE Systems and Dell EMC jointly provide for the U.S. Government?",
+  "different": "What specific cloud solution did BAE Systems and IBM collaborate to offer for the U.S. Government?"
+ },
+ {
+  "question": "What is the cost of the LattePanda Delta compared to the LattePanda Alpha?",
+  "paraphrase": "How does the price of the LattePanda Delta compare to that of the LattePanda Alpha?",
+  "different": "What is the cost of the LattePanda Delta compared to the LattePanda Beta?"
+ },
+ {
+  "question": "Which television programs aired during the week of April 16-22 had the highest viewership ratings according to Nielsen?",
+  "paraphrase": "Which shows had the highest Nielsen ratings during the week of April 16 to 22?",
+  "different": "Which television programs aired during the week of May 16-22 had the highest viewership ratings according to Nielsen?"
+ },
+ {
+  "question": "What are the main challenges to unifying the Civic Center Public Realm according to the study?",
+  "paraphrase": "What are the primary obstacles in integrating the Civic Center's public space according to the study?",
+  "different": "What are the main challenges to unifying the Downtown Public Realm according to the study?"
+ },
+ {
+  "question": "Which countries are major producers of biofuel and what impact is the rising demand for biofuels having on the global biotech seeds market?",
+  "paraphrase": "What are the leading countries in biofuel production, and how is the increasing need for biofuels influencing the global biotech seeds market?",
+  "different": "Which countries are major producers of biodiesel and what impact is the rising demand for biodiesel having on the global biotech seeds market?"
+ },
+ {
+  "question": "What is the ACTIVE FUNNEL and which types of ships will it be applied to?",
+  "paraphrase": "What does the ACTIVE FUNNEL refer to, and which kinds of vessels will it be implemented on?",
+  "different": "What is the ACTIVE FUNNEL and which types of ships will it be applied to in the year 2030?"
+ },
+ {
+  "question": "What actions did San Francisco's city attorney take against the alleged brothel operators?",
+  "paraphrase": "What steps did San Francisco's city attorney take against the individuals accused of running a brothel?",
+  "different": "What actions did San Francisco's city attorney take against the alleged brothel operators in 2023?"
+ },
+ {
+  "question": "Are the insurance companies refusing to cover Duke Energy's coal ash cleanup costs because they claim the damage was intentional and not caused by a distinct pollution event?",
+  "paraphrase": "Is Duke Energy's coal ash cleanup cost being denied by insurance companies due to their argument that the damage was deliberate and not the result of a separate pollution incident?",
+  "different": "Are the insurance companies refusing to cover the cleanup costs for the coal ash spill at the Tennessee plant because they claim the damage was intentional and not caused by a distinct pollution event?"
+ },
+ {
+  "question": "What steps has the South Bend International Airport taken toward adding international flights since 2014?",
+  "paraphrase": "What measures has the South Bend International Airport implemented to introduce international flights since 2014?",
+  "different": "What steps has the South Bend International Airport taken toward adding international flights since 2016?"
+ },
+ {
+  "question": "What time does the Zhuangwei Sand-Dune Line bus service operate on weekdays?",
+  "paraphrase": "What are the operating hours for the Zhuangwei Sand-Dune Line bus service on weekdays?",
+  "different": "What time does the Zhuangwei Sand-Dune Line bus service operate on weekends?"
+ },
+ {
+  "question": "What are the blood lead level thresholds for children in the United States and what health actions are recommended for each level?",
+  "paraphrase": "What are the specific blood lead level limits for children in the U.S. and what health interventions are advised for each level?",
+  "different": "What are the blood lead level thresholds for children in Canada and what health actions are recommended for each level?"
+ },
+ {
+  "question": "Who was the Lazio goalkeeper who made a great save to prevent a goal from Patrick Cutrone in the 75th minute of the cup match against Milan?",
+  "paraphrase": "Which Lazio goalkeeper made an impressive save to stop Patrick Cutrone from scoring in the cup game against Milan during the 75th minute?",
+  "different": "Who was the Lazio goalkeeper who made a great save to prevent a goal from Patrick Cutrone in the 75th minute of the cup match against Inter Milan?"
+ },
+ {
+  "question": "Who were the performers at the 60th annual Grammy Awards and what cultural influences did their performance highlight?",
+  "paraphrase": "Which artists performed at the 60th Grammy Awards and what cultural elements did their performances showcase?",
+  "different": "Who were the performers at the 61st annual Grammy Awards and what cultural influences did their performance highlight?"
+ },
+ {
+  "question": "Who was awarded the 2018 TEACH Partner Award by DeVryWORKS and what are the key characteristics of their approach to employee development?",
+  "paraphrase": "Which organization received the 2018 TEACH Partner Award from DeVryWORKS, and what are the main features of their method for developing employees?",
+  "different": "Who was awarded the 2019 TEACH Partner Award by DeVryWORKS and what are the key characteristics of their approach to employee development?"
+ },
+ {
+  "question": "Why did some voters switch their registration from Republican to Democrat because of the GOP's efforts to repeal the Affordable Care Act?",
+  "paraphrase": "What caused some voters to change their party registration from Republican to Democrat, specifically due to the GOP's attempts to repeal the Affordable Care Act?",
+  "different": "Why did some voters switch their registration from Republican to Democrat because of the GOP's efforts to repeal the Medicare Modernization Act?"
+ },
+ {
+  "question": "Which regions are segmented in the global industrial automation device manager software market and what was the market share of the Americas in 2017?",
+  "paraphrase": "What are the different regions that make up the global industrial automation device manager software market, and what percentage of the market did the Americas hold in 2017?",
+  "different": "Which regions are segmented in the global industrial automation device manager software market and what was the market share of the Americas in 2018?"
+ },
+ {
+  "question": "What happened to the person who was shot on Southbound I-880 in San Leandro?",
+  "paraphrase": "Who was the individual injured in a shooting incident on the southbound I-880 in San Leandro?",
+  "different": "What happened to the person who was shot on Southbound I-880 in Fremont?"
+ },
+ {
+  "question": "What was the impact of the tax cut plan on Anthem's profit and how did the company plan to increase its dividend?",
+  "paraphrase": "How did the tax cut plan affect Anthem's profitability, and what steps did the company take to raise its dividend?",
+  "different": "What was the impact of the tax cut plan on UnitedHealthcare's profit and how did the company plan to increase its dividend?"
+ },
+ {
+  "question": "Who did Congressman Gosar suggest should be deported during the State of the Union address, and what was the reaction from Senator Jeff Flake?",
+  "paraphrase": "Which individual did Congressman Gosar propose should be deported in his remarks during the State of the Union address, and how did Senator Jeff Flake respond?",
+  "different": "Who did Congressman Gosar suggest should be deported during the State of the Union address, and what was the reaction from Senator Cindy Hyde-Smith?"
+ },
+ {
+  "question": "Where will people be able to see the blue moon, supermoon, and total lunar eclipse happening together?",
+  "paraphrase": "In which location can people observe the blue moon, supermoon, and total lunar eclipse occurring simultaneously?",
+  "different": "Where will people be able to see the blue moon, supermoon, and total lunar eclipse happening together in 2025?"
+ },
+ {
+  "question": "What percentage of cheating couples in Brazil and Mexico have been found to watch their partner's favorite shows?",
+  "paraphrase": "What percentage of unfaithful couples in Brazil and Mexico have been observed watching their partner's preferred television shows?",
+  "different": "What percentage of cheating couples in Brazil and Argentina have been found to watch their partner's favorite shows?"
+ },
+ {
+  "question": "Where can someone catch shoal bass in Lake Harding and what baits are recommended?",
+  "paraphrase": "What are the best spots to fish for shoal bass in Lake Harding and what lures work well?",
+  "different": "Where can someone catch shoal bass in Lake Superior and what baits are recommended?"
+ },
+ {
+  "question": "How can a user add Google Docs to the Windows 10 New menu using the Registry?",
+  "paraphrase": "Is there a way to integrate Google Docs into the Windows 10 New menu via the Registry?",
+  "different": "How can a user add Google Sheets to the Windows 10 New menu using the Registry?"
+ },
+ {
+  "question": "What did Sourng Sophea argue about the 10 foreigners detained in Siem Reap?",
+  "paraphrase": "What was Sourng Sophea's stance regarding the 10 foreign nationals who were held in Siem Reap?",
+  "different": "What did Sourng Sophea argue about the 10 foreigners detained in Phnom Penh?"
+ },
+ {
+  "question": "How did Mohamed Salah score Liverpool's third goal in their 3-0 victory against Huddersfield?",
+  "paraphrase": "In Liverpool's 3-0 win over Huddersfield, how did Mohamed Salah manage to score the team's third goal?",
+  "different": "How did Mohamed Salah score Liverpool's third goal in their 3-0 victory against Manchester City?"
+ },
+ {
+  "question": "Who won the most recent race at Road America and how many times has he won in 2018?",
+  "paraphrase": "What was the outcome of the latest race held at Road America, and how many victories did the driver achieve in 2018?",
+  "different": "Who won the most recent race at Watkins Glen and how many times has he won in 2018?"
+ },
+ {
+  "question": "Who are the people returning to front the Great British Bake Off 2018?",
+  "paraphrase": "Which contestants came back to the front of the Great British Bake Off in 2018?",
+  "different": "Who are the people returning to front the Great British Bake Off 2023?"
+ },
+ {
+  "question": "Which sixteen healthcare organizations and partners committed to improving patient safety at the second annual Patient Safety Rally in Taiwan?",
+  "paraphrase": "Which sixteen healthcare institutions and their partners pledged to enhance patient safety during the second annual Patient Safety Rally held in Taiwan?",
+  "different": "Which sixteen healthcare organizations and partners committed to improving patient safety at the third annual Patient Safety Rally in Japan?"
+ },
+ {
+  "question": "What is Leilani Camargo-Naone's current ranking in women's wrestling at the 191-pound weight class?",
+  "paraphrase": "What is Leilani Camargo-Naone's current standing in women's wrestling at the 191-pound division?",
+  "different": "What is Leilani Camargo-Naone's current ranking in women's wrestling at the 190-pound weight class?"
+ },
+ {
+  "question": "What did Dick Clark Productions say about Mariah Carey's claim that they sabotaged her performance?",
+  "paraphrase": "Did Dick Clark Productions comment on Mariah Carey's assertion that they ruined her performance?",
+  "different": "What did Dick Clark Productions say about Britney Spears' claim that they sabotaged her performance?"
+ },
+ {
+  "question": "What solution did the team from Houston propose for handling waste in space, and how did their different areas of expertise contribute to their design?",
+  "paraphrase": "What approach did the Houston-based team suggest for managing waste in space, and how did their various areas of expertise influence their design?",
+  "different": "What solution did the team from Berlin propose for handling waste in space, and how did their different areas of expertise contribute to their design?"
+ },
+ {
+  "question": "When is the planned boxing match between Floyd Mayweather and Conor McGregor expected to take place?",
+  "paraphrase": "What is the scheduled date for the boxing match between Floyd Mayweather and Conor McGregor?",
+  "different": "When is the planned boxing match between Floyd Mayweather and Canelo Álvarez expected to take place?"
+ },
+ {
+  "question": "What did Alex Paulus tell his children about why the church wasn't finished when they were young?",
+  "paraphrase": "What explanation did Alex Paulus give his children regarding the church not being completed during their childhood?",
+  "different": "What did Alex Paulus tell his children about why the church wasn't finished when they were young?"
+ },
+ {
+  "question": "Why did WildAid and model Hannah Quinlivan encourage people not to eat shark fins, and what concerns about health and safety were raised regarding shark fins in the U.S., Hong Kong, and Taiwan?",
+  "paraphrase": "What was the reason behind WildAid and model Hannah Quinlivan promoting the avoidance of shark fin consumption, and what health and safety issues were associated with shark fins in the U.S., Hong Kong, and Taiwan?",
+  "different": "Why did WildAid and model Emma Watson encourage people not to eat shark fins, and what concerns about health and safety were raised regarding shark fins in the U.S., Hong Kong, and Taiwan?"
+ },
+ {
+  "question": "What was the highest average price for gasoline in Tennessee during the mentioned period?",
+  "paraphrase": "What was the average peak price of gasoline in Tennessee during that time frame?",
+  "different": "What was the highest average price for gasoline in California during the mentioned period?"
+ },
+ {
+  "question": "Who were the top scorers for Cal State Bakersfield in their 81-58 victory over UMKC?",
+  "paraphrase": "In Cal State Bakersfield's 81-58 win against UMKC, who led the team in scoring?",
+  "different": "Who were the top scorers for Cal State Bakersfield in their 81-58 victory over UMKC on March 15, 2023?"
+ },
+ {
+  "question": "Who were the Houthi militants attacking, and what was the outcome of their recent missile attack in the Red Sea?",
+  "paraphrase": "Which group launched the missile attack in the Red Sea, and who did they target?",
+  "different": "Who were the Al-Qaeda militants attacking, and what was the outcome of their recent missile attack in the Red Sea?"
+ },
+ {
+  "question": "Who was the trooper involved in the fatal shooting and what was the reason for the confrontation with Robison?",
+  "paraphrase": "Which trooper was responsible for the fatal shooting, and what led to the conflict with Robison?",
+  "different": "Who was the trooper involved in the fatal shooting and what was the reason for the confrontation with Robinson?"
+ },
+ {
+  "question": "Why is Mexican journalist Eduardo Gutierrez afraid to return to Mexico?",
+  "paraphrase": "What is causing Mexican journalist Eduardo Gutierrez to hesitate in going back to Mexico?",
+  "different": "Why is Mexican journalist Carlos Mendoza afraid to return to Mexico?"
+ },
+ {
+  "question": "What team did Brandon Marshall sign with after being released by the New York Giants?",
+  "paraphrase": "Which team did Brandon Marshall join after being let go by the New York Giants?",
+  "different": "What team did Brandon Marshall sign with after being released by the Dallas Cowboys?"
+ },
+ {
+  "question": "Who was James Alex Fields Jr. and what charges does he face after driving his car into a crowd during a white nationalist rally in Charlottesville, Virginia?",
+  "paraphrase": "What is James Alex Fields Jr.'s role, and what legal accusations is he facing following the incident where he drove his vehicle into a group of people at a white nationalist gathering in Charlottesville, Virginia?",
+  "different": "Who was James Alex Fields Jr. and what charges does he face after driving his car into a crowd during a white nationalist rally in Portland, Oregon?"
+ },
+ {
+  "question": "What is the current status of the stadium location for Beckham's new Miami MLS franchise and why is the Overtown site considered unlikely to be used?",
+  "paraphrase": "Where is Beckham's new Miami MLS team planning to build their stadium, and why is the Overtown location not expected to be chosen?",
+  "different": "What is the current status of the stadium location for Beckham's new Miami MLS franchise and why is the Wynwood site considered unlikely to be used?"
+ },
+ {
+  "question": "Who was the player that scored the winning basket for Fairfield with 9.1 seconds left in the game against Monmouth?",
+  "paraphrase": "Which player was responsible for the game-winning basket by Fairfield with just 9.1 seconds remaining in their match against Monmouth?",
+  "different": "Who was the player that scored the winning basket for Fairfield with 9.1 seconds left in the game against Providence?"
+ },
+ {
+  "question": "What types of bait and techniques are effective for catching catfish in West Point Lake?",
+  "paraphrase": "What are some good baits and methods for successfully fishing catfish at West Point Lake?",
+  "different": "What types of bait and techniques are effective for catching catfish in Lake Seminole?"
+ },
+ {
+  "question": "What are the predictions about typhoon formation and weather conditions near Taiwan in early June, according to the National Centers for Environmental Prediction and other meteorological models?",
+  "paraphrase": "What do the National Centers for Environmental Prediction and other weather models forecast regarding typhoon development and weather patterns around Taiwan in early June?",
+  "different": "What are the predictions about typhoon formation and weather conditions near Taiwan in early July, according to the National Centers for Environmental Prediction and other meteorological models?"
+ },
+ {
+  "question": "Were there any injuries reported after the explosion at the Port Authority bus terminal in New York City?",
+  "paraphrase": "Did anyone get hurt in the explosion at the Port Authority bus terminal in New York City?",
+  "different": "Were there any injuries reported after the explosion at the Port Authority bus terminal in Chicago?"
+ },
+ {
+  "question": "Why wasn't Garcia included in France's Fed Cup team for the upcoming best-of-five series?",
+  "paraphrase": "What is the reason Garcia wasn't selected for France's Fed Cup team in the upcoming best-of-five series?",
+  "different": "Why wasn't Garcia included in France's Fed Cup team for the upcoming best-of-three series?"
+ },
+ {
+  "question": "Who is Walden, and what is his role in starting a new Celebrate Recovery group in Bean Station?",
+  "paraphrase": "Can you tell me about Walden and his involvement in launching a new Celebrate Recovery group in Bean Station?",
+  "different": "Who is Walden, and what is his role in starting a new Celebrate Recovery group in Kingsport?"
+ },
+ {
+  "question": "What is the name of the dinosaur that Brigham Young University professors named after discovering it near Moab?",
+  "paraphrase": "Which dinosaur was given its name by Brigham Young University professors after they found it close to Moab?",
+  "different": "What is the name of the dinosaur that Brigham Young University professors named after discovering it near Las Vegas?"
+ },
+ {
+  "question": "What did the lawyer diGenova claim about the FBI officials and their alleged actions regarding Hillary Clinton and Donald Trump?",
+  "paraphrase": "What did lawyer diGenova say about the FBI officials and their supposed involvement in matters related to Hillary Clinton and Donald Trump?",
+  "different": "What did lawyer diGenova claim about the FBI officials and their alleged actions regarding Bill Clinton and Donald Trump?"
+ },
+ {
+  "question": "How much did \"Black Panther\" earn at the box office in its fifth week of release?",
+  "paraphrase": "What was the box office earnings of 'Black Panther' during its fifth week of showing?",
+  "different": "How much did 'Black Panther' earn at the box office in its sixth week of release?"
+ },
+ {
+  "question": "What steps is Melvin Green suggesting to ensure minority professionals are included in the design of the Raiders' Vegas stadium?",
+  "paraphrase": "What measures is Melvin Green proposing to make sure that minority professionals are involved in the design of the Raiders' stadium in Vegas?",
+  "different": "What steps is Melvin Green suggesting to ensure minority professionals are included in the design of the Raiders' Oakland stadium?"
+ },
+ {
+  "question": "What is the significance of the rusted-out bell at Erin Hills golf course?",
+  "paraphrase": "Why is there a corroded bell at Erin Hills golf course?",
+  "different": "What is the significance of the rusted-out bell at Augusta National Golf Club?"
+ },
+ {
+  "question": "Why did Parks Police evacuate Liberty Island after a woman climbed to the base of the Statue of Liberty?",
+  "paraphrase": "What caused the Parks Police to evacuate Liberty Island following a woman's climb to the base of the Statue of Liberty?",
+  "different": "Why did Parks Police evacuate Liberty Island after a man climbed to the base of the Statue of Liberty?"
+ },
+ {
+  "question": "How did Clemson's performance against North Carolina compare to their performance in ACC games this season?",
+  "paraphrase": "How did Clemson's performance in their game against North Carolina stack up against their overall ACC game performance this season?",
+  "different": "How did Clemson's performance against Florida State compare to their performance in ACC games this season?"
+ },
+ {
+  "question": "When is the World Boxing Super Series final between George Groves and Callum Smith scheduled to take place?",
+  "paraphrase": "What date is set for the World Boxing Super Series final between George Groves and Callum Smith?",
+  "different": "When is the World Boxing Super Series final between George Groves and Callum Smith scheduled to take place in 2025?"
+ },
+ {
+  "question": "Which countries are meeting NATO's spending target besides the United States?",
+  "paraphrase": "What other countries besides the United States are meeting their NATO spending targets?",
+  "different": "Which countries are meeting NATO's spending target besides Canada?"
+ },
+ {
+  "question": "Where can someone find big schools of hybrids fishing on Lake Allatoona during the summer?",
+  "paraphrase": "What are good spots for catching large schools of hybrids in Lake Allatoona during the summer months?",
+  "different": "Where can someone find big schools of hybrids fishing on Lake Lanier during the summer?"
+ },
+ {
+  "question": "What did Rob thank the doctors, nurses, and ambulance crews for?",
+  "paraphrase": "For what did Rob express his gratitude to the doctors, nurses, and ambulance crews?",
+  "different": "What did Rob thank the doctors, nurses, and firefighters for?"
+ },
+ {
+  "question": "Who is facing Conor McGregor at a weight class of 154 pounds in a fight at the T-Mobile arena on the Las Vegas Strip?",
+  "paraphrase": "Which fighter is set to face Conor McGregor in a 154-pound division match at the T-Mobile Arena on the Las Vegas Strip?",
+  "different": "Who is facing Conor McGregor at a weight class of 155 pounds in a fight at the T-Mobile arena on the Las Vegas Strip?"
+ },
+ {
+  "question": "What was the discount rate for six-month Treasury bills auctioned in the recent weekly US Treasury auction?",
+  "paraphrase": "What was the interest rate applied to six-month Treasury bills that were recently sold in the weekly US Treasury auction?",
+  "different": "What was the discount rate for three-month Treasury bills auctioned in the recent weekly US Treasury auction?"
+ },
+ {
+  "question": "What actions did Macau's gambling regulator take regarding Wynn's alleged inappropriate behavior?",
+  "paraphrase": "What steps did Macau's gambling authority take in response to Wynn's reported misconduct?",
+  "different": "What actions did Macau's gambling regulator take regarding Wynn's alleged inappropriate behavior in 2022?"
+ },
+ {
+  "question": "What happened to the Nikkei 225 index in Japan and how did it compare to other Asian stock markets?",
+  "paraphrase": "How did the Nikkei 225 index in Japan perform, and how did it stack up against other Asian stock markets?",
+  "different": "What happened to the Hang Seng index in Hong Kong and how did it compare to other Asian stock markets?"
+ },
+ {
+  "question": "Who are the individuals and organizations involved in the G-Cloud contracts announced by Kahootz?",
+  "paraphrase": "Which people and groups were involved in the G-Cloud contracts that Kahootz announced?",
+  "different": "Who are the individuals and organizations involved in the G-Cloud contracts announced by Microsoft?"
+ },
+ {
+  "question": "What did Kaohsiung's Bureau of Information Director, Chang Chia-hsing, say about using online celebrities to promote the city's tourism?",
+  "paraphrase": "What was Chang Chia-hsing, the Director of Kaohsiung's Bureau of Information,'s opinion on leveraging online celebrities to boost the city's tourism efforts?",
+  "different": "What did Taipei's Bureau of Information Director, Lin Chia-cheng, say about using online celebrities to promote the city's tourism?"
+ },
+ {
+  "question": "What should a retiree invested in bonds do when the Federal Reserve raises interest rates?",
+  "paraphrase": "What actions should a retired individual with bond investments take if the Federal Reserve increases interest rates?",
+  "different": "What should a retiree invested in bonds do when the Bank of Canada raises interest rates?"
+ },
+ {
+  "question": "Who is Kawananakoa and what role does she play in the ongoing court battle over the management of her fortune?",
+  "paraphrase": "What is Kawananakoa's role in the current legal dispute regarding the control of her inheritance?",
+  "different": "Who is Kamehameha and what role does she play in the ongoing court battle over the management of her fortune?"
+ },
+ {
+  "question": "Who was awarded the Eurocloud Award 2018 \"Best Vertical SaaS Solution\" and what is their primary business focus?",
+  "paraphrase": "Which company received the Eurocloud Award 2018 for being the best vertical SaaS solution, and what does it mainly do?",
+  "different": "Who was awarded the Eurocloud Award 2019 'Best Vertical SaaS Solution' and what is their primary business focus?"
+ },
+ {
+  "question": "What steps has Chris Paul taken to recruit LeBron James to join the Houston Rockets before the Cleveland Cavaliers' Finals series against the Warriors?",
+  "paraphrase": "What actions did Chris Paul take to bring LeBron James to the Houston Rockets prior to the Cleveland Cavaliers' Finals matchup with the Warriors?",
+  "different": "What steps has Chris Paul taken to recruit LeBron James to join the Houston Rockets before the Golden State Warriors' Finals series against the Cleveland Cavaliers?"
+ },
+ {
+  "question": "What is the proposed tax by Taipei's Department of Environmental Protection on aviation fuel intended to achieve?",
+  "paraphrase": "What is the purpose of the tax on aviation fuel proposed by Taipei's Department of Environmental Protection?",
+  "different": "What is the proposed tax by Seoul's Department of Environmental Protection on aviation fuel intended to achieve?"
+ },
+ {
+  "question": "What actions did the MOTC take against Iris Travel Service Co after their tour bus crashed?",
+  "paraphrase": "What steps did the MOTC take against Iris Travel Service Co following the tour bus accident?",
+  "different": "What actions did the MOTC take against Sky Travel Service Co after their tour bus crashed?"
+ },
+ {
+  "question": "What happened when Martin Frk had an open net on a third-period rebound against the San Jose Sharks?",
+  "paraphrase": "What occurred when Martin Frk scored on a third-period rebound against the San Jose Sharks with an open net?",
+  "different": "What happened when Martin Frk had an open net on a third-period rebound against the Boston Bruins?"
+ },
+ {
+  "question": "What kind of training do telecommunicators in the county undergo to prepare for their emergency dispatch duties?",
+  "paraphrase": "What kind of preparation do telecommunicators in the county receive to handle emergency dispatch responsibilities?",
+  "different": "What kind of training do telecommunicators in the city undergo to prepare for their emergency dispatch duties?"
+ },
+ {
+  "question": "Who was appointed as the Mountain Hardwear brand head of marketing by Columbia Sportswear Company?",
+  "paraphrase": "Which individual was named as the marketing head for the Mountain Hardwear brand by Columbia Sportswear Company?",
+  "different": "Who was appointed as the Mountain Hardwear brand head of marketing by Nike Company?"
+ },
+ {
+  "question": "What is the disagreement between Senate Democrats, led by Chuck Schumer, and House Republicans, including John Cornyn, regarding the hurricane aid bill?",
+  "paraphrase": "What is the conflict between Senate Democrats, with Chuck Schumer at the helm, and House Republicans, such as John Cornyn, concerning the funding for hurricane relief?",
+  "different": "What is the disagreement between Senate Democrats, led by Nancy Pelosi, and House Republicans, including Mitch McConnell, regarding the hurricane aid bill?"
+ },
+ {
+  "question": "When does the summer food program at Don Fox Community Park run?",
+  "paraphrase": "What are the operating hours for the summer food program at Don Fox Community Park?",
+  "different": "When does the summer food program at Riverside Park run?"
+ },
+ {
+  "question": "What does Captain Tommy Fyke of the Tennessee Highway Patrol's Protective Services Division say about the security measures in place for politicians?",
+  "paraphrase": "What are Captain Tommy Fyke's comments on the security protocols for protecting politicians within the Tennessee Highway Patrol's Protective Services Division?",
+  "different": "What does Captain John Carter of the Tennessee Highway Patrol's Protective Services Division say about the security measures in place for politicians?"
+ },
+ {
+  "question": "What happens to patients in California who have not yet obtained prescriptions for life-ending medications after the law was blocked?",
+  "paraphrase": "What occurs with patients in California who haven't received their life-ending medication prescriptions following the law's suspension?",
+  "different": "What happens to patients in Oregon who have not yet obtained prescriptions for life-ending medications after the law was blocked?"
+ },
+ {
+  "question": "What are Chuck S. and Gail McElroy thinking about in terms of preparing for a potential future emergency?",
+  "paraphrase": "What are Chuck S. and Gail McElroy considering in terms of planning for a possible future emergency?",
+  "different": "What are Chuck S. and Gail McElroy thinking about in terms of preparing for a potential future emergency?"
+ },
+ {
+  "question": "Who is responsible for the PR & Media Relations at Bojangles’, Inc.?",
+  "paraphrase": "Who handles public relations and media outreach for Bojangles’ company?",
+  "different": "Who is responsible for the PR & Media Relations at KFC, Inc.?"
+ }
+]

@@ -1,0 +1,50 @@
+{
+  "index": "dynamic",
+  "meta": {
+    "mode": "dynamic",
+    "articles": 5000,
+    "chunks": 10033,
+    "tokens_mean": 252.1,
+    "tokens_p95": 350,
+    "tokens_max": 469,
+    "truncated_chunks": 0,
+    "truncated_pct": 0.0,
+    "embed_chunks_per_s": 14.5,
+    "chunk_s": 6.2,
+    "embed_s": 692.6,
+    "faiss_s": 0.6,
+    "bm25_s": 2.0,
+    "total_s": 701.5
+  },
+  "questions": 60,
+  "style": "normal",
+  "configs": {
+    "hybrid rrf": {
+      "recall@1": 0.917,
+      "recall@5": 0.967,
+      "recall@10": 1.0,
+      "recall@20": 1.0,
+      "mrr": 0.935,
+      "ndcg@10": 0.95,
+      "latency_ms_p50": 3.8
+    },
+    "hybrid rrf + rerank (MiniLM)": {
+      "recall@1": 0.933,
+      "recall@5": 0.983,
+      "recall@10": 1.0,
+      "recall@20": 1.0,
+      "mrr": 0.958,
+      "ndcg@10": 0.969,
+      "latency_ms_p50": 1282.3
+    },
+    "hybrid rrf + rerank (bge-base)": {
+      "recall@1": 0.933,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@20": 1.0,
+      "mrr": 0.962,
+      "ndcg@10": 0.971,
+      "latency_ms_p50": 8474.9
+    }
+  }
+}

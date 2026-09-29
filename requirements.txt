@@ -1,0 +1,13 @@
+sentence-transformers
+datasets
+numpy
+requests
+nltk
+bm25s
+PyStemmer
+redis
+faiss-cpu
+fastapi
+uvicorn
+pytest
+httpx

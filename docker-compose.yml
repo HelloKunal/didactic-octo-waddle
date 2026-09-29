@@ -1,0 +1,31 @@
+# Build the index on the host first (python -m rag.index), then:
+#   docker compose up --build                     # uses the Ollama running on your machine
+#   docker compose --profile ollama up --build    # or run Ollama in a container too
+#                                                 # (set OLLAMA_URL=http://ollama:11434, then
+#                                                 #  docker compose exec ollama ollama pull qwen3)
+services:
+  redis:
+    image: redis/redis-stack-server:latest
+    ports: ["6379:6379"]
+    volumes: ["redis-data:/data"]
+
+  app:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      REDIS_URL: redis://redis:6379
+      OLLAMA_URL: ${OLLAMA_URL:-http://host.docker.internal:11434}
+      RAG_INDEX_DIR: data/index_dynamic
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    volumes: ["./data:/app/data"]
+    depends_on: [redis]
+
+  ollama:
+    image: ollama/ollama
+    profiles: ["ollama"]
+    ports: ["11434:11434"]
+    volumes: ["ollama:/root/.ollama"]
+
+volumes:
+  redis-data:
+  ollama:

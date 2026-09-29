@@ -1,0 +1,447 @@
+{
+  "pairs": 96,
+  "similarity": {
+    "paraphrase": {
+      "p50": 0.951,
+      "p95": 0.984,
+      "mean": 0.942
+    },
+    "near_miss": {
+      "p50": 0.902,
+      "p95": 0.977,
+      "mean": 0.898
+    },
+    "unrelated": {
+      "p50": 0.381,
+      "p95": 0.454,
+      "mean": 0.378
+    }
+  },
+  "verifier": {
+    "model": "cross-encoder/quora-distilroberta-base",
+    "min_score": 0.5,
+    "ms_per_check": 56.8,
+    "score_p50": {
+      "paraphrase": 0.979,
+      "near_miss": 0.001
+    }
+  },
+  "max_false_hits": 0.02,
+  "best": {
+    "vector only": null,
+    "vector + key-term guard": null,
+    "vector + verifier": {
+      "threshold": 0.84,
+      "paraphrase_hit_rate": 0.969,
+      "near_miss_false_hit_rate": 0.01
+    },
+    "vector + guard + verifier": {
+      "threshold": 0.84,
+      "paraphrase_hit_rate": 0.938,
+      "near_miss_false_hit_rate": 0.0
+    }
+  },
+  "sweep": {
+    "vector only": [
+      {
+        "threshold": 0.8,
+        "paraphrase_hit_rate": 0.99,
+        "near_miss_false_hit_rate": 0.927
+      },
+      {
+        "threshold": 0.81,
+        "paraphrase_hit_rate": 0.99,
+        "near_miss_false_hit_rate": 0.906
+      },
+      {
+        "threshold": 0.82,
+        "paraphrase_hit_rate": 0.99,
+        "near_miss_false_hit_rate": 0.896
+      },
+      {
+        "threshold": 0.83,
+        "paraphrase_hit_rate": 0.99,
+        "near_miss_false_hit_rate": 0.865
+      },
+      {
+        "threshold": 0.84,
+        "paraphrase_hit_rate": 0.99,
+        "near_miss_false_hit_rate": 0.823
+      },
+      {
+        "threshold": 0.85,
+        "paraphrase_hit_rate": 0.979,
+        "near_miss_false_hit_rate": 0.76
+      },
+      {
+        "threshold": 0.86,
+        "paraphrase_hit_rate": 0.969,
+        "near_miss_false_hit_rate": 0.74
+      },
+      {
+        "threshold": 0.87,
+        "paraphrase_hit_rate": 0.948,
+        "near_miss_false_hit_rate": 0.708
+      },
+      {
+        "threshold": 0.88,
+        "paraphrase_hit_rate": 0.927,
+        "near_miss_false_hit_rate": 0.677
+      },
+      {
+        "threshold": 0.89,
+        "paraphrase_hit_rate": 0.906,
+        "near_miss_false_hit_rate": 0.594
+      },
+      {
+        "threshold": 0.9,
+        "paraphrase_hit_rate": 0.896,
+        "near_miss_false_hit_rate": 0.521
+      },
+      {
+        "threshold": 0.91,
+        "paraphrase_hit_rate": 0.844,
+        "near_miss_false_hit_rate": 0.448
+      },
+      {
+        "threshold": 0.92,
+        "paraphrase_hit_rate": 0.76,
+        "near_miss_false_hit_rate": 0.406
+      },
+      {
+        "threshold": 0.93,
+        "paraphrase_hit_rate": 0.719,
+        "near_miss_false_hit_rate": 0.323
+      },
+      {
+        "threshold": 0.94,
+        "paraphrase_hit_rate": 0.604,
+        "near_miss_false_hit_rate": 0.271
+      },
+      {
+        "threshold": 0.95,
+        "paraphrase_hit_rate": 0.5,
+        "near_miss_false_hit_rate": 0.188
+      },
+      {
+        "threshold": 0.96,
+        "paraphrase_hit_rate": 0.385,
+        "near_miss_false_hit_rate": 0.146
+      },
+      {
+        "threshold": 0.97,
+        "paraphrase_hit_rate": 0.229,
+        "near_miss_false_hit_rate": 0.104
+      }
+    ],
+    "vector + key-term guard": [
+      {
+        "threshold": 0.8,
+        "paraphrase_hit_rate": 0.958,
+        "near_miss_false_hit_rate": 0.094
+      },
+      {
+        "threshold": 0.81,
+        "paraphrase_hit_rate": 0.958,
+        "near_miss_false_hit_rate": 0.094
+      },
+      {
+        "threshold": 0.82,
+        "paraphrase_hit_rate": 0.958,
+        "near_miss_false_hit_rate": 0.094
+      },
+      {
+        "threshold": 0.83,
+        "paraphrase_hit_rate": 0.958,
+        "near_miss_false_hit_rate": 0.094
+      },
+      {
+        "threshold": 0.84,
+        "paraphrase_hit_rate": 0.958,
+        "near_miss_false_hit_rate": 0.094
+      },
+      {
+        "threshold": 0.85,
+        "paraphrase_hit_rate": 0.948,
+        "near_miss_false_hit_rate": 0.094
+      },
+      {
+        "threshold": 0.86,
+        "paraphrase_hit_rate": 0.938,
+        "near_miss_false_hit_rate": 0.083
+      },
+      {
+        "threshold": 0.87,
+        "paraphrase_hit_rate": 0.917,
+        "near_miss_false_hit_rate": 0.083
+      },
+      {
+        "threshold": 0.88,
+        "paraphrase_hit_rate": 0.896,
+        "near_miss_false_hit_rate": 0.083
+      },
+      {
+        "threshold": 0.89,
+        "paraphrase_hit_rate": 0.875,
+        "near_miss_false_hit_rate": 0.083
+      },
+      {
+        "threshold": 0.9,
+        "paraphrase_hit_rate": 0.865,
+        "near_miss_false_hit_rate": 0.083
+      },
+      {
+        "threshold": 0.91,
+        "paraphrase_hit_rate": 0.823,
+        "near_miss_false_hit_rate": 0.073
+      },
+      {
+        "threshold": 0.92,
+        "paraphrase_hit_rate": 0.74,
+        "near_miss_false_hit_rate": 0.073
+      },
+      {
+        "threshold": 0.93,
+        "paraphrase_hit_rate": 0.698,
+        "near_miss_false_hit_rate": 0.052
+      },
+      {
+        "threshold": 0.94,
+        "paraphrase_hit_rate": 0.594,
+        "near_miss_false_hit_rate": 0.042
+      },
+      {
+        "threshold": 0.95,
+        "paraphrase_hit_rate": 0.49,
+        "near_miss_false_hit_rate": 0.031
+      },
+      {
+        "threshold": 0.96,
+        "paraphrase_hit_rate": 0.375,
+        "near_miss_false_hit_rate": 0.021
+      },
+      {
+        "threshold": 0.97,
+        "paraphrase_hit_rate": 0.219,
+        "near_miss_false_hit_rate": 0.021
+      }
+    ],
+    "vector + verifier": [
+      {
+        "threshold": 0.8,
+        "paraphrase_hit_rate": 0.969,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.81,
+        "paraphrase_hit_rate": 0.969,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.82,
+        "paraphrase_hit_rate": 0.969,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.83,
+        "paraphrase_hit_rate": 0.969,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.84,
+        "paraphrase_hit_rate": 0.969,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.85,
+        "paraphrase_hit_rate": 0.958,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.86,
+        "paraphrase_hit_rate": 0.948,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.87,
+        "paraphrase_hit_rate": 0.927,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.88,
+        "paraphrase_hit_rate": 0.906,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.89,
+        "paraphrase_hit_rate": 0.885,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.9,
+        "paraphrase_hit_rate": 0.875,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.91,
+        "paraphrase_hit_rate": 0.823,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.92,
+        "paraphrase_hit_rate": 0.74,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.93,
+        "paraphrase_hit_rate": 0.708,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.94,
+        "paraphrase_hit_rate": 0.604,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.95,
+        "paraphrase_hit_rate": 0.5,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.96,
+        "paraphrase_hit_rate": 0.385,
+        "near_miss_false_hit_rate": 0.01
+      },
+      {
+        "threshold": 0.97,
+        "paraphrase_hit_rate": 0.229,
+        "near_miss_false_hit_rate": 0.0
+      }
+    ],
+    "vector + guard + verifier": [
+      {
+        "threshold": 0.8,
+        "paraphrase_hit_rate": 0.938,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.81,
+        "paraphrase_hit_rate": 0.938,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.82,
+        "paraphrase_hit_rate": 0.938,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.83,
+        "paraphrase_hit_rate": 0.938,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.84,
+        "paraphrase_hit_rate": 0.938,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.85,
+        "paraphrase_hit_rate": 0.927,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.86,
+        "paraphrase_hit_rate": 0.917,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.87,
+        "paraphrase_hit_rate": 0.896,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.88,
+        "paraphrase_hit_rate": 0.875,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.89,
+        "paraphrase_hit_rate": 0.854,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.9,
+        "paraphrase_hit_rate": 0.844,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.91,
+        "paraphrase_hit_rate": 0.802,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.92,
+        "paraphrase_hit_rate": 0.719,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.93,
+        "paraphrase_hit_rate": 0.688,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.94,
+        "paraphrase_hit_rate": 0.594,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.95,
+        "paraphrase_hit_rate": 0.49,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.96,
+        "paraphrase_hit_rate": 0.375,
+        "near_miss_false_hit_rate": 0.0
+      },
+      {
+        "threshold": 0.97,
+        "paraphrase_hit_rate": 0.219,
+        "near_miss_false_hit_rate": 0.0
+      }
+    ]
+  },
+  "redis": {
+    "threshold": 0.85,
+    "guard": true,
+    "verifier": "cross-encoder/quora-distilroberta-base",
+    "entries": 96,
+    "hit_rate": {
+      "exact": 1.0,
+      "paraphrase": 0.927,
+      "near_miss": 0.0
+    },
+    "lookup_ms": {
+      "exact": {
+        "p50": 2.23,
+        "p95": 2.9,
+        "mean": 2.2
+      },
+      "paraphrase": {
+        "p50": 68.15,
+        "p95": 100.89,
+        "mean": 70.07
+      },
+      "near_miss": {
+        "p50": 2.79,
+        "p95": 67.23,
+        "mean": 9.1
+      }
+    },
+    "put_ms": {
+      "p50": 1.14,
+      "p95": 1.75,
+      "mean": 1.23
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "noise": 0.02,
+  "efSearch": 128,
+  "queries": 100,
+  "rows": [
+    {
+      "vectors": 100000,
+      "exact_ms_p50": 4.01,
+      "hnsw_ms_p50": 0.438,
+      "speedup": 9.2,
+      "recall@50": 0.9886,
+      "hnsw_build_s": 15.8
+    },
+    {
+      "vectors": 500000,
+      "exact_ms_p50": 30.72,
+      "hnsw_ms_p50": 0.336,
+      "speedup": 91.4,
+      "recall@50": 0.9852,
+      "hnsw_build_s": 81.2
+    },
+    {
+      "vectors": 1000000,
+      "exact_ms_p50": 45.27,
+      "hnsw_ms_p50": 0.587,
+      "speedup": 77.1,
+      "recall@50": 0.9656,
+      "hnsw_build_s": 147.6
+    }
+  ]
+}

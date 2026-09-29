@@ -1,0 +1,32 @@
+{
+  "index": "dynamic",
+  "vectors": 10033,
+  "exact_latency_ms_p50": 0.437,
+  "hnsw": [
+    {
+      "efSearch": 16,
+      "recall@50": 0.7791,
+      "latency_ms_p50": 0.083
+    },
+    {
+      "efSearch": 32,
+      "recall@50": 0.9055,
+      "latency_ms_p50": 0.118
+    },
+    {
+      "efSearch": 64,
+      "recall@50": 0.9659,
+      "latency_ms_p50": 0.176
+    },
+    {
+      "efSearch": 128,
+      "recall@50": 0.9929,
+      "latency_ms_p50": 0.327
+    },
+    {
+      "efSearch": 256,
+      "recall@50": 0.9986,
+      "latency_ms_p50": 0.516
+    }
+  ]
+}
